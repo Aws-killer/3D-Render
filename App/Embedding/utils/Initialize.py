@@ -33,7 +33,11 @@ def generate_text(doc):
 
 def IdSearch(query:str):
     doc=requests.get(f'https://api.themoviedb.org/3/find/{query}?external_source=imdb_id&language=en&api_key={TMDB_API}').json()
-    text,_=generate_text(doc)
+    try:
+        text,props=generate_text(doc)
+    except Exception as e:
+        print(e)
+        return []
     return TextSearch(text,filter={"key": {"$ne":query}})
 
 
