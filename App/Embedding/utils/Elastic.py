@@ -29,7 +29,7 @@ def FetchDocuments(ids):
 
     response=[]
     for data in res["hits"]["hits"]:
-        temp=data["inner_hits"]["simple"]["hits"]["hits"][0]
-        
+        temp=data["inner_hits"]["simple"]["hits"]["hits"][0]['_source']
+
         response.append(temp)
     return response
