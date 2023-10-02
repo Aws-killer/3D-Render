@@ -26,4 +26,9 @@ def FetchDocuments(ids):
             },
         },
     )
-    return res
+
+    response=[]
+    for data in res["hits"]["hits"]:
+        temp=data["inner_hits"]["simple"]["hits"]["hits"]
+        response.append(temp)
+    return response
