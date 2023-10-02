@@ -20,6 +20,6 @@ USER admin
 COPY --chown=admin . /srv
 
 # Command to run the application
-CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 8 
+CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 1 
 # Expose the server port
 EXPOSE 7860
