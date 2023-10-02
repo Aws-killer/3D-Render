@@ -1,0 +1,7 @@
+fastapi
+elasticsearch==7.7.0  
+pinecone-client[grpc] 
+sentence-transformers 
+langchain 
+uvicorn[standard]
+pydantic
