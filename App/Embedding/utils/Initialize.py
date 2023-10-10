@@ -41,6 +41,7 @@ def add_document(imdb_id, doc):
         return
 
     temp_doc["key"] = imdb_id
+    temp_doc["genre_ids"] = ""
     temp = Document(
         page_content=text,
         metadata=temp_doc,
