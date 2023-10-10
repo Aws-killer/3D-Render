@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 from fastapi.middleware.gzip import GZipMiddleware
-
+from .TTS.TTSRoutes import tts_router
 
 from .Embedding.EmbeddingRoutes import embeddigs_router
 
@@ -39,3 +39,4 @@ async def landing_page():
 
 
 app.include_router(embeddigs_router)
+app.include_router(tts_router)

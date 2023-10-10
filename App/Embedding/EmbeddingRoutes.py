@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, BackgroundTasks
 
 from .utils.Initialize import TextSearch, IdSearch
 from .Schemas import SearchRequest, AddDocumentRequest
@@ -13,8 +13,11 @@ async def create_embeddings(req: AddDocumentRequest):
 
 
 @embeddigs_router.post("/search_id")
-async def search_id(req: SearchRequest):
-    return IdSearch(query=req.query)
+async def search_id(
+    req: SearchRequest,
+    background_tasks: BackgroundTasks,
+):
+    return IdSearch(query=req.query, background_task=background_tasks)
 
 
 @embeddigs_router.post("/search_text")

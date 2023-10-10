@@ -1,52 +1,73 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from langchain.vectorstores import Pinecone
-import os,requests
-import pinecone,pprint
+from fastapi import BackgroundTasks
+import os, requests
+import pinecone, pprint
 from .Elastic import FetchDocuments
 
 
-index_name = 'movie-recommender-fast'
+index_name = "movie-recommender-fast"
 model_name = "thenlper/gte-base"
 embeddings = HuggingFaceEmbeddings(model_name=model_name)
 
-TMDB_API=os.environ.get('TMDB_API')
+TMDB_API = os.environ.get("TMDB_API")
 
 # get api key from app.pinecone.io
-PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY') 
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 # find your environment next to the api key in pinecone console
-PINECONE_ENV = os.environ.get('PINECONE_ENVIRONMENT') 
+PINECONE_ENV = os.environ.get("PINECONE_ENVIRONMENT")
 
-pinecone.init(
-    api_key=PINECONE_API_KEY,
-    environment=PINECONE_ENV
-)
+pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
+vector_index = pinecone.Index(index_name=index_name)
+
 
 docsearch = Pinecone.from_existing_index(index_name, embeddings)
 
+
+def check_if_exists(imdb_id):
+    results = vector_index.query(filter={"key": {"$eq": imdb_id}}, top_k=1)
+    if results:
+        return True
+    else:
+        return False
+
+
+def add_document(imdb_id, doc):
+    response = check_if_exists(imdb_id=imdb_id)
+    if response:
+        print("document exists")
+        return
+    text, temp_doc = doc
+    temp_doc["key"] = imdb_id
+    temp = Document(
+        page_content=text,
+        metadata=temp_doc,
+    )
+    print("document added")
+    docsearch.add_documents([temp])
+
+
 def generate_text(doc):
-  if doc['tv_results']:
-    return pprint.pformat(doc['tv_results'][0]),doc['tv_results'][0]
-  return pprint.pformat(doc['movie_results'][0]),doc['movie_results'][0]
+    if doc["tv_results"]:
+        return pprint.pformat(doc["tv_results"][0]), doc["tv_results"][0]
+    return pprint.pformat(doc["movie_results"][0]), doc["movie_results"][0]
 
 
-
-def IdSearch(query:str):
-    doc=requests.get(f'https://api.themoviedb.org/3/find/{query}?external_source=imdb_id&language=en&api_key={TMDB_API}').json()
+def IdSearch(query: str, background_task: BackgroundTasks):
+    doc = requests.get(
+        f"https://api.themoviedb.org/3/find/{query}?external_source=imdb_id&language=en&api_key={TMDB_API}"
+    ).json()
     try:
-        text,props=generate_text(doc)
+        text, props = generate_text(doc)
     except Exception as e:
         print(e)
         return []
-    return TextSearch(text,filter={"key": {"$ne":query}})
+    background_task.add_task(add_document, imdb_id=query, doc=(text, props))
+    return TextSearch(text, filter={"key": {"$ne": query}})
 
 
-
-def TextSearch(query: str,filter=None):
-    docs = docsearch.similarity_search(query,k=10,filter=filter)
-    keys= [ doc.metadata['key'] for doc in docs ]
+def TextSearch(query: str, filter=None):
+    docs = docsearch.similarity_search(query, k=10, filter=filter)
+    keys = [doc.metadata["key"] for doc in docs]
     return FetchDocuments(keys)
-
-
-
-
