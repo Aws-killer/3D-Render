@@ -26,9 +26,7 @@ docsearch = Pinecone.from_existing_index(index_name, embeddings)
 
 
 def check_if_exists(text, imdb_id):
-    results = docsearch.similarity_search(
-        text, filter={"key": {"$eq": imdb_id}}, top_k=1
-    )
+    results = docsearch.similarity_search(text, filter={"key": {"$eq": imdb_id}}, k=1)
     if results:
         return True
     else:
