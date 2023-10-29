@@ -57,7 +57,6 @@ def generate_text(doc):
     return pprint.pformat(doc["movie_results"][0]), doc["movie_results"][0]
 
 
-@lru_cache(maxsize=10000)
 def IdSearch(query: str, background_task: BackgroundTasks):
     doc = requests.get(
         f"https://api.themoviedb.org/3/find/{query}?external_source=imdb_id&language=en&api_key={TMDB_API}"
@@ -71,7 +70,6 @@ def IdSearch(query: str, background_task: BackgroundTasks):
     return TextSearch(text, filter={"key": {"$ne": query}})
 
 
-@lru_cache(maxsize=10000)
 def TextSearch(query: str, filter=None):
     docs = docsearch.similarity_search(query, k=10, filter=filter)
     keys = [doc.metadata["key"] for doc in docs]
