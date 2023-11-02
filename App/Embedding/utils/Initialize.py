@@ -11,6 +11,7 @@ from .Elastic import FetchDocuments
 index_name = "movie-recommender-fast"
 model_name = "thenlper/gte-base"
 embeddings = HuggingFaceEmbeddings(model_name=model_name)
+from fastapi_cache.decorator import cache
 
 TMDB_API = os.environ.get("TMDB_API")
 
@@ -26,6 +27,7 @@ vector_index = pinecone.Index(index_name=index_name)
 docsearch = Pinecone.from_existing_index(index_name, embeddings)
 
 
+@cache(namespace="test")
 def check_if_exists(text, imdb_id):
     results = docsearch.similarity_search(text, filter={"key": {"$eq": imdb_id}}, k=1)
     if results:
@@ -34,6 +36,7 @@ def check_if_exists(text, imdb_id):
         return False
 
 
+@cache(namespace="test")
 def add_document(imdb_id, doc):
     text, temp_doc = doc
     response = check_if_exists(text=text, imdb_id=imdb_id)
@@ -51,12 +54,14 @@ def add_document(imdb_id, doc):
     docsearch.add_documents([temp])
 
 
+@cache(namespace="test")
 def generate_text(doc):
     if doc["tv_results"]:
         return pprint.pformat(doc["tv_results"][0]), doc["tv_results"][0]
     return pprint.pformat(doc["movie_results"][0]), doc["movie_results"][0]
 
 
+# @cache(namespace="test")
 def IdSearch(query: str, background_task: BackgroundTasks):
     doc = requests.get(
         f"https://api.themoviedb.org/3/find/{query}?external_source=imdb_id&language=en&api_key={TMDB_API}"
@@ -70,6 +75,7 @@ def IdSearch(query: str, background_task: BackgroundTasks):
     return TextSearch(text, filter={"key": {"$ne": query}})
 
 
+# @cache(namespace="test")
 def TextSearch(query: str, filter=None):
     docs = docsearch.similarity_search(query, k=10, filter=filter)
     keys = [doc.metadata["key"] for doc in docs]
