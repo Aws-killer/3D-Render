@@ -9,13 +9,13 @@ embeddigs_router = APIRouter(tags=["embeddings"])
 
 # create
 @embeddigs_router.post("/add_document")
-@cache(namespace="cache1")
+# @cache(namespace="cache1")
 async def create_embeddings(req: AddDocumentRequest):
     pass
 
 
 @embeddigs_router.post("/search_id")
-@cache(namespace="cache2")
+# @cache(namespace="cache2")
 async def search_id(
     req: SearchRequest,
     background_tasks: BackgroundTasks,
@@ -24,6 +24,6 @@ async def search_id(
 
 
 @embeddigs_router.post("/search_text")
-@cache(namespace="cache3")
+# @cache(namespace="cache3")
 async def search_text(req: SearchRequest):
     return TextSearch(query=req.query)
