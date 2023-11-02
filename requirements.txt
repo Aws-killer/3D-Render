@@ -6,4 +6,5 @@ langchain
 uvicorn[standard]
 pydantic
 requests
+fastapi-cache2[memcache]
 
