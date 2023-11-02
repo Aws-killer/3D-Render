@@ -27,7 +27,7 @@ vector_index = pinecone.Index(index_name=index_name)
 docsearch = Pinecone.from_existing_index(index_name, embeddings)
 
 
-@cache(namespace="test")
+# @cache(namespace="test")
 def check_if_exists(text, imdb_id):
     results = docsearch.similarity_search(text, filter={"key": {"$eq": imdb_id}}, k=1)
     if results:
@@ -36,7 +36,7 @@ def check_if_exists(text, imdb_id):
         return False
 
 
-@cache(namespace="test")
+# @cache(namespace="test")
 def add_document(imdb_id, doc):
     text, temp_doc = doc
     response = check_if_exists(text=text, imdb_id=imdb_id)
@@ -54,7 +54,7 @@ def add_document(imdb_id, doc):
     docsearch.add_documents([temp])
 
 
-@cache(namespace="test")
+# @cache(namespace="test")
 def generate_text(doc):
     if doc["tv_results"]:
         return pprint.pformat(doc["tv_results"][0]), doc["tv_results"][0]
