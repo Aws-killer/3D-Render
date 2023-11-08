@@ -2,28 +2,35 @@ from fastapi import APIRouter, BackgroundTasks
 
 from .utils.Initialize import TextSearch, IdSearch
 from .Schemas import SearchRequest, AddDocumentRequest
-from fastapi_cache.decorator import cache
+import redis, os, json
+
+REDIS = os.environ.get("REDIS")
+cache = redis.from_url(REDIS)
+
 
 embeddigs_router = APIRouter(tags=["embeddings"])
 
 
 # create
 @embeddigs_router.post("/add_document")
-# @cache(namespace="cache1")
 async def create_embeddings(req: AddDocumentRequest):
     pass
 
 
 @embeddigs_router.post("/search_id")
-# @cache(namespace="cache2")
 async def search_id(
     req: SearchRequest,
     background_tasks: BackgroundTasks,
 ):
-    return IdSearch(query=req.query, background_task=background_tasks)
+    data = cache.get(f"recommendations:{req.query}")
+    if data is not None:
+        return json.loads(data)
+
+    data = IdSearch(query=req.query, background_task=background_tasks)
+    cache.set(f"recommendations:{req.query}", json.dumps(data), ex=72000)
+    return data
 
 
 @embeddigs_router.post("/search_text")
-# @cache(namespace="cache3")
-async def search_text(req: SearchRequest):
-    return TextSearch(query=req.query)
+async def search_text(reqx: SearchRequest):
+    return TextSearch(query=reqx.query)
