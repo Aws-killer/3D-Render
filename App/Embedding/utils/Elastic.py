@@ -12,6 +12,7 @@ def FetchDocuments(ids, order="asc"):
     res = es.search(
         index=es_index_name,
         body={
+            "size": 1000,
             "query": {"terms": {"imdb_id.keyword": ids, "boost": 1.0}},
             "collapse": {
                 "field": "imdb_id.keyword",
