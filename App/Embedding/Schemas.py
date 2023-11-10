@@ -10,5 +10,9 @@ class SearchRequest(BaseModel):
     query: str
 
 
+class TrendingRequest(BaseModel):
+    imdb_ids: list[str]
+
+
 class GetTranscriptions(BaseModel):
     userId: int

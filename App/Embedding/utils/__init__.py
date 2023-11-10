@@ -1,10 +1,7 @@
 from elasticsearch import Elasticsearch
 import os
 
-elastic_host = os.environ.get(
-    "ELASTIC_HOST",
-    "https://u46hxt12c:3qcatejimc@movies-search-5264494072.us-west-2.bonsaisearch.net:443",
-)
+elastic_host = os.environ.get("ELASTIC_HOST")
 
 # initialize elasticSearch
 es = Elasticsearch([elastic_host])

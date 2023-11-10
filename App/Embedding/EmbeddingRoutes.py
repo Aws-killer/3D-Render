@@ -1,7 +1,7 @@
 from fastapi import APIRouter, BackgroundTasks
 
-from .utils.Initialize import TextSearch, IdSearch
-from .Schemas import SearchRequest, AddDocumentRequest
+from .utils.Initialize import TextSearch, IdSearch, LookUpIds
+from .Schemas import SearchRequest, AddDocumentRequest, TrendingRequest
 import redis, os, json
 
 REDIS = os.environ.get("REDIS")
@@ -15,6 +15,11 @@ embeddigs_router = APIRouter(tags=["embeddings"])
 @embeddigs_router.post("/add_document")
 async def create_embeddings(req: AddDocumentRequest):
     pass
+
+
+@embeddigs_router.get("/Trending")
+async def getTrending(req: TrendingRequest):
+    LookUpIds(req.imdb_ids)
 
 
 @embeddigs_router.post("/search_id")

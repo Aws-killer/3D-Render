@@ -71,6 +71,10 @@ def IdSearch(query: str, background_task: BackgroundTasks):
     return TextSearch(text, filter={"key": {"$ne": query}})
 
 
+def LookUpIds(imdb_ids: list[str]):
+    return FetchDocuments(imdb_ids)
+
+
 def TextSearch(query: str, filter=None):
     docs = docsearch.similarity_search(query, k=10, filter=filter)
     keys = [doc.metadata["key"] for doc in docs]
