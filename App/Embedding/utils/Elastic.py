@@ -1,15 +1,13 @@
 from elasticsearch import Elasticsearch
+import os
 
+ELASTIC_HOST = os.environ.get("ELASTIC_HOST")
 
 # initialize elasticSearch
-es = Elasticsearch(
-    [
-        "https://u46hxt12c:3qcatejimc@movies-search-5264494072.us-west-2.bonsaisearch.net:443"
-    ]
-)
+es = Elasticsearch([ELASTIC_HOST])
 
 
-def FetchDocuments(ids):
+def FetchDocuments(ids, order="asc"):
     es_index_name = "telegram_media"
     res = es.search(
         index=es_index_name,
@@ -20,17 +18,17 @@ def FetchDocuments(ids):
                 "inner_hits": {
                     "name": "simple",
                     "collapse": {"field": "caption"},
-                    "sort": [{"season_number": {"order": "asc"}}],
+                    "sort": [{"season_number": {"order": order}}],
                     "size": 1,
                 },
             },
         },
     )
 
-    response=[]
+    response = []
     for data in res["hits"]["hits"]:
-        temp=data["inner_hits"]["simple"]["hits"]["hits"][0]['_source']
-        temp['_id']=data["inner_hits"]["simple"]["hits"]["hits"][0]['_id']
+        temp = data["inner_hits"]["simple"]["hits"]["hits"][0]["_source"]
+        temp["_id"] = data["inner_hits"]["simple"]["hits"]["hits"][0]["_id"]
 
         response.append(temp)
     return response

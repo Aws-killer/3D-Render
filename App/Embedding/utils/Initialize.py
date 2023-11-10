@@ -72,7 +72,7 @@ def IdSearch(query: str, background_task: BackgroundTasks):
 
 
 def LookUpIds(imdb_ids: list[str]):
-    return FetchDocuments(imdb_ids)
+    return FetchDocuments(imdb_ids, order="desc")
 
 
 def TextSearch(query: str, filter=None):
