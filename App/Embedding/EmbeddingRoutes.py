@@ -17,9 +17,9 @@ async def create_embeddings(req: AddDocumentRequest):
     pass
 
 
-@embeddigs_router.get("/Trending")
+@embeddigs_router.post("/LookUp")
 async def getTrending(req: TrendingRequest):
-    LookUpIds(req.imdb_ids)
+    return LookUpIds(req.imdb_ids)
 
 
 @embeddigs_router.post("/search_id")
