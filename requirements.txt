@@ -8,4 +8,5 @@ pydantic
 requests
 redis
 fastapi-cache2[memcache]
+poe-api-wrapper[proxy]
 
