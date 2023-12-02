@@ -6,6 +6,7 @@ from App.Chat.Schemas import BotRequest
 
 client = PoeApi("sXvCnfYy8CHnXNTRlxhmVg==")
 CHAT_CODE = ""
+print(client.get_chat_history()["data"])
 
 
 async def SendMessage(req: BotRequest):
