@@ -12,6 +12,7 @@ tts = PodcastleAPI(**data)
 data = {
     "account": os.environ.get("HEYGEN_USERNAME"),
     "password": os.environ.get("HEYGEN_PASSWORD"),
+    "token": os.environ.get("HEYGEN_TOKEN"),
 }
 heyGentts = HeygenAPI(**data)
 

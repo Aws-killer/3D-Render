@@ -3,10 +3,11 @@ from App.TTS.Schemas import HeyGenTTSRequest
 
 
 class HeygenAPI:
-    def __init__(self, account, password):
+    def __init__(self, account, password, token):
         self.base_url = "https://api2.heygen.com/v1"
         self.account = account
         self.password = password
+        self.token = token
         self.session = None
         self.session_token = None
 
@@ -23,6 +24,7 @@ class HeygenAPI:
             "login_type": "email",
             "account": self.account,
             "password": self.password,
+            "token": self.token,
         }
 
         if not self.session:
