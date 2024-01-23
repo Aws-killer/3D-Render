@@ -180,7 +180,10 @@ class DescriptTTS:
         url = "https://api.descript.com/v2/users/me/voices"
         try:
             response = await self.make_authenticated_request(url)
-            return response
+            voices = response
+            self.voice_ids = {voice['name']: voice['id'] for voice in voices}
+
+            return voices
         except Exception as e:
             print(f"Failed to fetch voices: {e}")
             return None
@@ -364,10 +367,3 @@ class DescriptTTS:
                 return path, url
 
 
-# async def example_usage():
-#     descript_tts = DescriptTTS()
-#     r=await descript_tts.say('Watch the world burn')
-#     print(r)
-
-# # Run the example usage asynchronously
-# asyncio.run(example_usage())
