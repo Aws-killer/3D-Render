@@ -54,6 +54,12 @@ async def descript_unsplash(req: DescriptSfxRequest):
 async def voices_descript():
     return await descript_tts.get_voices()
 
+
+@tts_router.get("/descript_auto_refresh")
+async def auto_refresh():
+    return await descript_tts.start_token_refresh_schedule()
+
+
 @tts_router.post("/status")
 async def search_id(req: StatusRequest):
     return await tts.check_status(req)
