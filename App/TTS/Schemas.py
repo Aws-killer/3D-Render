@@ -19,6 +19,19 @@ class Speak(BaseModel):
         )
         super().__init__(**data)
 
+class DescriptSfxRequest(BaseModel):
+    query:str
+
+class DescriptRequest(BaseModel):
+    text: str
+    speaker: Optional[str]=Field(default="Lawrance")
+    _voice_id: Optional[str] 
+
+class DescriptStatusRequest(BaseModel):
+    id:str
+
+
+
 
 class HeyGenTTSRequest(BaseModel):
     voice_id: str = Field(default="d7bbcdd6964c47bdaae26decade4a933")

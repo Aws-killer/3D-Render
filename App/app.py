@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.gzip import GZipMiddleware
 
 from .TTS.TTSRoutes import tts_router
-
+from  .TTS.utils.Descript import DescriptTTS
 from .Embedding.EmbeddingRoutes import embeddigs_router
 from .Chat.PoeChatrouter import chat_router
 
@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
-
+tts_object=DescriptTTS()
 import logging
 
 
@@ -39,6 +39,7 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 @app.on_event("startup")
 async def startup():
     FastAPICache.init(InMemoryBackend())
+    await tts_object.start_token_refresh_schedule()
 
 
 @app.get("/")

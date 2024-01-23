@@ -1,9 +1,10 @@
 from fastapi import APIRouter
 
 
-from .Schemas import StatusRequest, TTSGenerateRequest, HeyGenTTSRequest
+from .Schemas import StatusRequest, TTSGenerateRequest, HeyGenTTSRequest,DescriptRequest,DescriptStatusRequest,DescriptSfxRequest
 from .utils.Podcastle import PodcastleAPI
 from .utils.HeyGen import HeygenAPI
+from .utils.Descript import DescriptTTS
 import os
 
 tts_router = APIRouter(tags=["TTS"])
@@ -14,6 +15,8 @@ data = {
     "password": os.environ.get("HEYGEN_PASSWORD"),
     "token": os.environ.get("HEYGEN_TOKEN"),
 }
+
+descript_tts=DescriptTTS()
 heyGentts = HeygenAPI(**data)
 
 
@@ -28,6 +31,28 @@ async def generate_heygen_voice(req: HeyGenTTSRequest):
     print("hey gen here")
     return await heyGentts.tts_request(req)
 
+@tts_router.post("/descript_tts")
+async def generate_descript_voice(req: DescriptRequest):
+    return await descript_tts.overdub_text(**req.__dict__)
+
+
+@tts_router.post("/descript_status")
+async def status_descript(req: DescriptStatusRequest):
+    return await descript_tts.request_status(req.id)
+
+@tts_router.post("/descript_sfx")
+async def descript_sfx(req: DescriptSfxRequest):
+    return await descript_tts.search_sound_effects(req.query)
+
+@tts_router.post("/descript_unsplash")
+async def descript_unsplash(req: DescriptSfxRequest):
+    return await descript_tts.search_unsplash_images(req.query)
+
+
+
+@tts_router.get("/descript_voices")
+async def voices_descript():
+    return await descript_tts.get_voices()
 
 @tts_router.post("/status")
 async def search_id(req: StatusRequest):
