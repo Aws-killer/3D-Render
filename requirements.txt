@@ -1,6 +1,6 @@
 fastapi
 elasticsearch==7.7.0  
-pinecone-client[grpc] 
+pinecone-client[grpc]==2.2.1
 sentence-transformers 
 langchain 
 uvicorn[standard]
