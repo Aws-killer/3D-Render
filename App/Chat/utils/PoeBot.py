@@ -19,13 +19,13 @@ async def SendMessage(req: BotRequest):
         try:
             if CHAT_CODE == "":
                 for chunk in client.send_message(
-                    req.bot, req.message, chatCode="2rx4w5jt6zf96tn7dr1"
+                    req.bot, req.message, chatCode="2rx4w5jt6zf96tn7dr1", file_path=req.file_upload
                 ):
                     pass
                 CHAT_CODE = chunk["chatCode"]
             else:
                 for chunk in client.send_message(
-                    req.bot, req.message, chatCode=CHAT_CODE
+                    req.bot, req.message, chatCode=CHAT_CODE, file_path=req.file_upload
                 ):
                     pass
 
@@ -46,13 +46,13 @@ async def GenerateImage(req: BotRequest):
         try:
             if GEN_CODE == "":
                 for chunk in client.send_message(
-                    req.bot, req.message, chatCode="2rx4w5jt6zf96tn7dr1"
+                    req.bot, req.message, chatCode="2rx4w5jt6zf96tn7dr1", file_path=req.file_upload
                 ):
                     pass
                 GEN_CODE = chunk["chatCode"]
             else:
                 for chunk in client.send_message(
-                    req.bot, req.message, chatCode=GEN_CODE
+                    req.bot, req.message, chatCode=GEN_CODE, file_path=req.file_upload
                 ):
                     pass
 
