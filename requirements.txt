@@ -1,6 +1,6 @@
 fastapi
 elasticsearch==7.7.0  
-pinecone-client[grpc] 
+pinecone-client[grpc]==2.2.1
 sentence-transformers 
 langchain 
 uvicorn[standard]
@@ -8,5 +8,5 @@ pydantic
 requests
 redis
 fastapi-cache2[memcache]
-poe-api-wrapper[proxy]
+git+https://github.com/snowby666/poe-api-wrapper.git
 
