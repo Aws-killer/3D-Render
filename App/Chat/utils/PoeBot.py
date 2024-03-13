@@ -8,7 +8,7 @@ pattern = r"\!\[.*?\]\((.*?)\)"
 
 client = PoeApi("sXvCnfYy8CHnXNTRlxhmVg==")
 CHAT_CODE = ""
-print(client.get_chat_history()["data"])
+# print(client.get_chat_history()["data"])
 GEN_CODE = ""
 
 
@@ -63,4 +63,5 @@ async def GenerateImage(req: BotRequest):
             client = PoeApi("sXvCnfYy8CHnXNTRlxhmVg==")
             GEN_CODE = ""
             counter += 1
-            print(client.get_chat_history()["data"])
+            client.get_chat_history()
+            # print(client.get_chat_history()["data"])

@@ -1,0 +1,1836 @@
+[
+    {
+        "id": 16408,
+        "title": "Low Key",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "421",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/421/pic/tim-mossholder-3qglmip1hk0-unsplash.jpeg?w=100&h=100",
+                "name": "Renderings"
+            }
+        ],
+        "tags": [
+            "Jazz",
+            "Big Band"
+        ],
+        "audioFiles": [
+            {
+                "id": "70055",
+                "description": "Instrumental [Primary]",
+                "duration": 194.21,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/mp3_Renderings_LowKey_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_34c22fbb419021af0ec490117fa450adeee4cf95ba4f699a919e98f558df5c7d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/Renderings_LowKey_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_5f49e5f425b79ff4a395931a7d5b070f73e0935e386412818307c303cfb887cb"
+                }
+            },
+            {
+                "id": "70054",
+                "description": "Instrumental [Chorus]",
+                "duration": 51.39,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/mp3_Renderings_LowKey_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_d00795ecd87cfb2413f102642b68a0721e8175257392daf7536365c7a44d7ad0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/Renderings_LowKey_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_b418f177ecca5e2f5926032f523959ec20e9d86a6879dc110e97c261c83b5e6e"
+                }
+            },
+            {
+                "id": "70056",
+                "description": "Instrumental",
+                "duration": 20.44,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/mp3_Renderings_LowKey_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_23515ef8891955f6a6fe0f0e380adde62b91cc5972d0be38f4c2a34f0c81b787",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/Renderings_LowKey_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_9a97ec9ef9dc2f2eed269575fb2d1e1874b20fddc12c46aebc0f043ec6d42fe1"
+                }
+            },
+            {
+                "id": "70057",
+                "description": "Instrumental [Verse]",
+                "duration": 27.19,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/mp3_Renderings_LowKey_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_09ac68878e08337675d23648cf9b0887a7440549dacdfa13054f337e72937c95",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/Renderings_LowKey_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_e5712f375ceb65ca6f5d5ccd86ca964945a757a0f53189411ff9be36826f73c5"
+                }
+            },
+            {
+                "id": "70053",
+                "description": "Instrumental [Bridge]",
+                "duration": 28.16,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/mp3_Renderings_LowKey_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_5f739c385132badca05073bd2074883292a0dd6872e56e0c9dafd376b9e40dcb",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1c9499d7cba04b29b36c10d3ed2449f1/Renderings_LowKey_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246500_7e7b74e11d68d2b23c648a6d74eaadd6dbbd5dcbfbf9083d1b2863d278adfb0a"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16393,
+        "title": "Awake All Night",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "593",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/593/pic/345aee3efb.jpg?w=100&h=100",
+                "name": "Lunareh"
+            }
+        ],
+        "tags": [
+            "Corporate",
+            "Electronic",
+            "House",
+            "Pop"
+        ],
+        "audioFiles": [
+            {
+                "id": "69962",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 167.34,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_295884d4c2ba7a5b70c08d775d9ad5dc80a49849d9fdfec98f52e61e1d4c7827",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_50e1632b02509b35402b283e4a7726c6f232239db73d74bc18d20015eb0aef41"
+                }
+            },
+            {
+                "id": "69968",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 35.36,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_3078cad952c8c36182352d9409607b5c50b9eb4c511778a4774d962289da412b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_5d16cca47892f9ad9307d2c14e45107ccbbffd07d784bd15c82c98405e9be546"
+                }
+            },
+            {
+                "id": "69967",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 19.34,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_9109be00b7e747fb86f75f2876bbb20254b9e0adc73a2fc0fcb86b03660a415f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_bcececda6b1a1dc3b689c2a9b5f545aab291ceb5dd2add87f11389b3a872ec5d"
+                }
+            },
+            {
+                "id": "69966",
+                "description": "Instrumental [Verse]",
+                "duration": 35.36,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_948219fd8a16e5baefc7e57380171585b6d2ee5135a9d3d4b886e70bf902678f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_6852a204798914e5bae408905dd8ea4ef96f3e38f38a256253d51c86fac545cf"
+                }
+            },
+            {
+                "id": "69963",
+                "description": "Instrumental [Chorus]",
+                "duration": 35.36,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_b4a06405378843533c3ef68a293007e03430f34d7794cc99a4941a4e1e4e6623",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_0668e6fad6dbc87cf078dbde0b1501042b162f8851feca0ca40e274ac8500a42"
+                }
+            },
+            {
+                "id": "69965",
+                "description": "Instrumental [Intro]",
+                "duration": 19.34,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_cf10ecf5fb7ac015c018451494871195745235e131f9883b1417282fa4730d5c",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_6f9fafee5d2957b770809745e0e0a927ab10f063ece133c7773c41b8b295e6e7"
+                }
+            },
+            {
+                "id": "69961",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 35.36,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_3b91169a864b441568bad4f9adc08ea2b54fd4d278b8b5a239528e6a3b25a380",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_1c2622e5b656f0609ea99ce5e1f0cc08c146ed9ed129ab344cc2e3dc904a2d58"
+                }
+            },
+            {
+                "id": "69964",
+                "description": "Instrumental [Full]",
+                "duration": 167.34,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/mp3_LUNAREH_AwakeAllNight_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_df1bb19c358dfa6dab9bff7f752b2e02bc93e1cfd1d011f6e1eff8e422f37162",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/0c644c29e8c24b7cb5d9a54a77dad1f1/LUNAREH_AwakeAllNight_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246499_7417c09be5ff2d35b4dd997837797b12574194f7864b5db3fc0b8df51d26fa1f"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16367,
+        "title": "Let's Go",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "675",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/675/pic/46cd382412.jpg?w=100&h=100",
+                "name": "LNDÖ"
+            }
+        ],
+        "tags": [
+            "Rock",
+            "Alternative",
+            "Hard Rock",
+            "Indie"
+        ],
+        "audioFiles": [
+            {
+                "id": "69791",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 131.45,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_69aa3feec76595808c861d39ed43fe7dced99f1c544deec8ed42fe34ba7e9499",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_98cfc46574540a88385f908a997d40e175c058fd24e8a32431bdd17a75b44704"
+                }
+            },
+            {
+                "id": "69797",
+                "description": "Instrumental [Intro]",
+                "duration": 14.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_aa60df274e29f90f9fa77c33c9ac99b03cb1427ddf2d65f2574141d33792235b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_45c5cb8d71666d1f2606929e1fd1634b4152059fa888a2d2e596c057736672cf"
+                }
+            },
+            {
+                "id": "69798",
+                "description": "Instrumental [Full]",
+                "duration": 131.45,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_cf4c93c660ffa994113d0008009fe20596c3b72f95731194e25ae93e92dd56d0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_a8ce3e915aa49c14744f3ae4ae9134dcaae3de833631f1162e6feb59ae4a8ba0"
+                }
+            },
+            {
+                "id": "69794",
+                "description": "Instrumental [Bridge]",
+                "duration": 23.29,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_INST_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_0f8f722d8ab1dd07d2e0bd565e10426de43601d21c61eab528ce648f1bfef20e",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_INST_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_7d65016f64fc6a48615ab7c5687b4eb49918874ac30f442cf68cc29cd92f626a"
+                }
+            },
+            {
+                "id": "69793",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 29.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_96e4b234cf8ca1bfab4d49bcef66d35de07b967520eeb8755fc71f4ce04c2638",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_ee2f4fb896d5cf39f883bb5c4f54dfa78888daed39a127f3dc77da326d32d76f"
+                }
+            },
+            {
+                "id": "69792",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 23.29,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_a5b66669c9836e1bfb2726f22c2bf182ee022267671b259ef9d37d1d2f94cd6a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_77bf2b5ac7d1eeeca16b54ac3450fcf1a77edbc10b7fa8c69ed575f768c065b5"
+                }
+            },
+            {
+                "id": "69796",
+                "description": "Instrumental [Chorus]",
+                "duration": 29.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_cdac382b399a737183fcd7a74b4c9583957227666e35051ef8480b6004c01ee3",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_c8d13dc8ee45d004845535943aa7d3cebd46667844b5725f4a99f2577f24ea14"
+                }
+            },
+            {
+                "id": "69795",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 14.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/mp3_LNDO%CC%88_LetsGo_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_7e328f4e9bd51ba914b12dc301badd2ff0e33111f9528349f33cd3061cf106a0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ca235514a07a4a09a5881fc905e599f1/LNDO%CC%88_LetsGo_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246497_60270591aa3a975db7d0b78683177d229efc8a76c326b952b6ae83065e2575c5"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16349,
+        "title": "Petty Thieves",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "272",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/272/pic/heartland-nights.jpeg?w=100&h=100",
+                "name": "Heartland Nights"
+            }
+        ],
+        "tags": [
+            "Country",
+            "Rock"
+        ],
+        "audioFiles": [
+            {
+                "id": "69607",
+                "description": "Instrumental [Primary]",
+                "duration": 234.02,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/mp3_HeartlandNights_PettyThieves_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_82723281e51b51786a71fc146ed19c2fd71d49299c6bd3ec5c86acca38372eb5",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/HeartlandNights_PettyThieves_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_64b83210c375a4397507c98f359b82bd304f9c7073c3dac2a40816ca2be643ce"
+                }
+            },
+            {
+                "id": "69609",
+                "description": "Instrumental [Verse]",
+                "duration": 30.25,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/mp3_HeartlandNights_PettyThieves_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_ed96bbe8b8c5dff027cfc4225c19600917107779f056c6bee309a528cde149f5",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/HeartlandNights_PettyThieves_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_cb75057fa33ef91aba61d81f7d2e782e5db292fa6a9f0ac4efbd159d0c956625"
+                }
+            },
+            {
+                "id": "69606",
+                "description": "Instrumental [Chorus]",
+                "duration": 30.26,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/mp3_HeartlandNights_PettyThieves_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_37256649001583fb9d2508b417dff8e7c997924d109b6015f98c20da7b3a61a1",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/HeartlandNights_PettyThieves_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_58ac500e6479c7b09b230404c33cdfd7c45204095452de3b44f1a9c701967613"
+                }
+            },
+            {
+                "id": "69605",
+                "description": "Instrumental [Bridge]",
+                "duration": 48.77,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/mp3_HeartlandNights_PettyThieves_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_a94a1b1814d30c3e0e9b89017bfd0d28398674c2fc46876f6bdf2a116fafb120",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/HeartlandNights_PettyThieves_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_480d152350b9da290aadf2fe625be49d8e1b11065e520b177855ff74a0525472"
+                }
+            },
+            {
+                "id": "69608",
+                "description": "Instrumental [Intro]",
+                "duration": 15.15,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/mp3_HeartlandNights_PettyThieves_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_7c4c5fe31c415e9284c8bc530a5b8a648f77164bc39d945d69bdaae047f3d880",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/5f171f263e4341aeafe26f8a459eeef1/HeartlandNights_PettyThieves_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246496_ce7c13a475406e3451f37593c67070d05bd6c82cf8aad9bcb2e0c230e883228a"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16320,
+        "title": "Soul Sister",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "593",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/593/pic/345aee3efb.jpg?w=100&h=100",
+                "name": "Lunareh"
+            }
+        ],
+        "tags": [
+            "Hip Hop",
+            "Lo-Fi",
+            "R&B"
+        ],
+        "audioFiles": [
+            {
+                "id": "69427",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 211.7,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_fe213c75d3d777159f3cb9794ab0e92736ade052162b73fe1fff25d2988c1e5f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_92931ca2a24d7e0eaa9127d4d8c7cc10054259d01052768bcf5d3ec18a4c3005"
+                }
+            },
+            {
+                "id": "69428",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 67.18,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_267c8d0c499e4a83d7a1168fa7deada0181653204ec6446ca2d795da442ac076",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_a07686deeb667c6c792df062d02eda7b625159990214bdbf8eb202b52e3be623"
+                }
+            },
+            {
+                "id": "69423",
+                "description": "Instrumental [Chorus]",
+                "duration": 67.18,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_97e4df7852b572512bc94cd1b784ea5fbf4db4c897fe82a65180fea27ff65017",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_7fbbe576b65ddb79fb20096f510ab56f3b4d73c0c4e5ec7dd2c0ca0b6091dab7"
+                }
+            },
+            {
+                "id": "69424",
+                "description": "Instrumental [Full]",
+                "duration": 211.7,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_7eabd70283bdaeb58e6186c7572b2ecfbd369617bec0d325960af952aea1ddd8",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_1460cfce69dc5f601d85858f29f088febd44e272ff2cc8a7ad77dafc986d2828"
+                }
+            },
+            {
+                "id": "69425",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 25.9,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_1a986f06a9c08328de414760f5364566090be964290b32cac89fa5ca163ee9e8",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_d2d4b7e5b5a872437149115edd47a367ec4ae5fc7e2d31b798df36d6f3ab5ec0"
+                }
+            },
+            {
+                "id": "69429",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 25.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_3b8220d6e89ca4f927f8379844b5a166e5d4f0038dbe1ddf7e19f72f93c8bd0e",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_3f6d5071dc2d58b1cbc3140146586f525d4f2eff5cf3804b5d1bb758eb79d59e"
+                }
+            },
+            {
+                "id": "69426",
+                "description": "Instrumental [Verse]",
+                "duration": 25.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_25f4669de8c374c8f1fc3590a1fee0f43146736996876b954c59456ab71c08ae",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_6442be81e44abe99298164b2bc4d61462f2ad6abd925b0e770b16f6a034432f8"
+                }
+            },
+            {
+                "id": "69430",
+                "description": "Instrumental [Intro]",
+                "duration": 25.9,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/mp3_LUNAREH_SoulSister_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_60f18cdd0caf8f12e7b09a5591fa88e34a7fed053e3601fcf267e7a45088cbd5",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/34130e91f11d4ee7810aeeb06f1e10f1/LUNAREH_SoulSister_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_ffcd04f8ddedbd7b5ebfc9fc4f6c31c3a6ee9105098421f38754801c4621060e"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16317,
+        "title": "Energy Surplus",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "593",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/593/pic/345aee3efb.jpg?w=100&h=100",
+                "name": "Lunareh"
+            }
+        ],
+        "tags": [
+            "Pop",
+            "Electronic",
+            "EDM"
+        ],
+        "audioFiles": [
+            {
+                "id": "69402",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 191.55,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/3eb850d39f904f549563c99f764e4cf1/mp3_LUNAREH_EnergySurplus_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_b0a3da7de151cdebc07c54390d85271d7632a91ed214d684219ff3f104975df6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/3eb850d39f904f549563c99f764e4cf1/LUNAREH_EnergySurplus_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_87f9f2087527c6996aac7990672a2c560990cd6600f335d4eced2fd23189a502"
+                }
+            },
+            {
+                "id": "69401",
+                "description": "Instrumental [Verse]",
+                "duration": 21.29,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_883a43888fb5e2b276a13c6a9d2d2ae425c99bcdbfe41c5d7363a2be49b69c4e",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_24ae92315179bc7243f36d6e87479510d70a69e62aa423ee0b5af9de2d5197d0"
+                }
+            },
+            {
+                "id": "69400",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 21.29,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_9013314714f93be55f7e49a1236e80e5917d151687793b237e8f630035d00fd2",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_a3316a88b3befeb8a1164f00a39d9aa86f359c445306e4a6910fb55a5cef410b"
+                }
+            },
+            {
+                "id": "69403",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 22.39,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_ba9ab4270318b119190b1c95a880864f9166c620c41f20802f91a12efa959e55",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_fa72b5198124410f3da5266eb1c0a79697e0cb3da4aadb07ff5798810a2e35d2"
+                }
+            },
+            {
+                "id": "69404",
+                "description": "Instrumental [Intro]",
+                "duration": 22.39,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_fc9cea80e232eb8d47caad9da4af4d294830c338f751cd4c98d6bff546dd489a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_656e83ac26b2edc633b5a8f03ecca2ad3668b359ca8e70e357e0f929a6622975"
+                }
+            },
+            {
+                "id": "69405",
+                "description": "Instrumental [Chorus]",
+                "duration": 66.42,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_026f3071c9a12c1957fe6f15acd36cbd31c6594ca357890a5038843380592c5a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_11ec9eeffa7d75050b3c33c38eb8e2af3bf5eb90462a64d373e2da9ae59739ce"
+                }
+            },
+            {
+                "id": "69406",
+                "description": "Instrumental [Full]",
+                "duration": 191.55,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/mp3_LUNAREH_EnergySurplus_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_157a833f14e335c85d75c6279351a0ee18c8cd9fa27acb5bd6f53343a98a3c2c",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ab8615ad684f4584878d0f81a71668f1/LUNAREH_EnergySurplus_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246494_11d2e1c3e86370ac936a3e9cf915adb6e2860d32d0f8aef18d2d0b2551a7f6b2"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16273,
+        "title": "Rule",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "426",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/426/pic/wicked-cinema-copy.jpeg?w=100&h=100",
+                "name": "Wicked Cinema"
+            }
+        ],
+        "tags": [
+            "Cinematic",
+            "Modern Orchestral",
+            "Soundtrack / Cinematic",
+            "Score"
+        ],
+        "audioFiles": [
+            {
+                "id": "69104",
+                "description": "Instrumental [Primary]",
+                "duration": 139.12,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/mp3_WickedCinema_Rule_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_5a75b0db666dfc8fc29df50aa36b4d0f030342b8cbc39374a7f286f746b1225b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/WickedCinema_Rule_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_b31fe25741698787a3dde2b9a8eea64f09fef723a16f780c6259471c410b07b3"
+                }
+            },
+            {
+                "id": "69103",
+                "description": "Instrumental [Chorus]",
+                "duration": 58.38,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/mp3_WickedCinema_Rule_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_28e502598e2ef5729b5cdc557ee50ed5f302ae06f12c4e6305f42a2281095f28",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/WickedCinema_Rule_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_f6df26c64e12625f834e29b684164310f591a277a978655c80bb0c199f311a2c"
+                }
+            },
+            {
+                "id": "69105",
+                "description": "Instrumental [Intro]",
+                "duration": 26.97,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/mp3_WickedCinema_Rule_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_a0586ee4fc7208eee63aba6ef813f260b7a158f8c0fac2860147676b3724b68a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/WickedCinema_Rule_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_205b318d469c444c85fa4f7918b6de7b78e79c7c25a1580101fbc349505e4caa"
+                }
+            },
+            {
+                "id": "69106",
+                "description": "Instrumental [Verse]",
+                "duration": 29.18,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/mp3_WickedCinema_Rule_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_e43f785008f52a40dc2c8eef68ab9381bf0fdfc5b349339e1aa04ecae5eee523",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/7ca043f3a21143a2ae5f08e9fd9a05f1/WickedCinema_Rule_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_9b6570f2d747ada1fc6dfbe80290d1c22a3b2ec05e7f55ed29991917f0283d3b"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16269,
+        "title": "Crushing",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "432",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/432/pic/image-from-ios.jpeg?w=100&h=100",
+                "name": "Reveille"
+            }
+        ],
+        "tags": [
+            "Corporate",
+            "Electronic",
+            "Soundtrack / Cinematic",
+            "Underscore"
+        ],
+        "audioFiles": [
+            {
+                "id": "69088",
+                "description": "Instrumental [Primary]",
+                "duration": 154.17,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/mp3_Reveille_Crushing_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_fd70b1a5438fab88afbf19233633918f8d0ad3cc75fd2fff3d9598f606dc6ad4",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/Reveille_Crushing_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_2ef42028341a994512d9c1f6fa31cceebcf25db6d94cf057a8ac261f43cadb7b"
+                }
+            },
+            {
+                "id": "69086",
+                "description": "Instrumental [Bridge]",
+                "duration": 24.31,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/mp3_Reveille_Crushing_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_c5b9fc4d427926c323d79028aff455d4bfebf75e01116fcbcb2f36c2184ccd92",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/Reveille_Crushing_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_22bebe2b6ff652c4d0d6f6520f3a3ea37c284635398ec12aa6c7b768fdd3e595"
+                }
+            },
+            {
+                "id": "69087",
+                "description": "Instrumental [Chorus]",
+                "duration": 47.47,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/mp3_Reveille_Crushing_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_f0a95bbf3e72b9255842ac9605e29d47ced32086d7bc6ca72289d3e04137c4cc",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/Reveille_Crushing_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_2ce565711ee313dbf3cfe912731382dd3616a6dd8e1c2e44cdd38a4ebe970ab5"
+                }
+            },
+            {
+                "id": "69089",
+                "description": "Instrumental [Verse]",
+                "duration": 26.58,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/mp3_Reveille_Crushing_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_0bb726a99081cfa243585330a36dceb4bd8b4e8ecef47159e20be9696cb17f12",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/8833e5140a7c446895b224e818ea2ef1/Reveille_Crushing_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246491_09a55e073fae6d795610b59e76e14a052f26a98a7e3022e8667046f4cb5eed57"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16242,
+        "title": "Fresh To Death",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "593",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/593/pic/345aee3efb.jpg?w=100&h=100",
+                "name": "Lunareh"
+            }
+        ],
+        "tags": [
+            "Experimental",
+            "Corporate",
+            "Funk"
+        ],
+        "audioFiles": [
+            {
+                "id": "68926",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 160.17,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/mp3_LUNAREH_FreshToDeath_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_8b96608b25dcac7da740d884ca9befed6c7409087d575d0495f2a2c5e411984a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/LUNAREH_FreshToDeath_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_9189267330e5adb50b8bdb11883fc8226ef3f8a791d76d41c2dbf9ae7af92125"
+                }
+            },
+            {
+                "id": "68927",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 9.42,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/mp3_LUNAREH_FreshToDeath_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_fed94f83aaebb768dcbe8a081ed015a5a1de4b6bdbd964b37f48c60140762bfc",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/LUNAREH_FreshToDeath_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_5d7c5a71ae8f78e22a75d380c9fdff519929dec111a5d6a49fd5825b26e97d45"
+                }
+            },
+            {
+                "id": "68925",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 37.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/mp3_LUNAREH_FreshToDeath_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_5c34483e334cfbed13ff2ce95f69475850a954a4798bd2beeddaa6261f5becf0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/LUNAREH_FreshToDeath_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_159a37af881f7450d00b8fef04bf894c39303b61ec085e2f3cb4bd5d956df906"
+                }
+            },
+            {
+                "id": "68928",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 23.81,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/mp3_LUNAREH_FreshToDeath_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_4b89b15d8247722c361637acae099c755fb06351779d82b0699bcf3c1feab2ec",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/a52b992547a74a9c8033889a6334aef1/LUNAREH_FreshToDeath_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_210b65d116acd87fd3e53697fb2c890510f0c3110c9e8de072589d31b5e29215"
+                }
+            },
+            {
+                "id": "68929",
+                "description": "Instrumental [Chorus]",
+                "duration": 37.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/mp3_LUNAREH_FreshToDeath_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_cf7df9557935424bb512f4a5ef6041fba20a4d0ea9b6d885f56b75c7748f0bb9",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/LUNAREH_FreshToDeath_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_873a527c3fc57d61db3e6fc96deb4839ae314d0172d92010b3e68a9bbd00f377"
+                }
+            },
+            {
+                "id": "68930",
+                "description": "Instrumental [Full]",
+                "duration": 160.17,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/mp3_LUNAREH_FreshToDeath_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_acc0a27dec859542928ece7db93b7d446f9d909f6fbc496ad41a49a5a9f3b3fb",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/LUNAREH_FreshToDeath_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_e74c8ccca010375ecaed1d7d4516a6ed933d779c3587e923d3a688444a6e62d0"
+                }
+            },
+            {
+                "id": "68932",
+                "description": "Instrumental [Verse]",
+                "duration": 23.81,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/mp3_LUNAREH_FreshToDeath_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_e699a9ea6e273105a59521ac75626c9105354f3c35d2c3d3675a3fed27b3e33d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/LUNAREH_FreshToDeath_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_154822597e09b82d276e4fdadb76497d360c005038169ec06390fa79b669af3c"
+                }
+            },
+            {
+                "id": "68931",
+                "description": "Instrumental [Intro]",
+                "duration": 9.42,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/mp3_LUNAREH_FreshToDeath_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_f7f77d45e71385608afb40e187f86715318ab92afe517d1528c8843fc577a79d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/dd153f649bc14d31a6cb4f4c086efef1/LUNAREH_FreshToDeath_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246489_ff1c7f26a192040acabee91cad2fcc95990624d9fa6d37bb504e060349889bf9"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16218,
+        "title": "Philadelphia Bounce",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "338",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/338/pic/ghostbeatz_soundstripe.png?w=100&h=100",
+                "name": "Ghost Beatz"
+            }
+        ],
+        "tags": [
+            "Hip Hop",
+            "Rap",
+            "R&B"
+        ],
+        "audioFiles": [
+            {
+                "id": "68807",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 168.96,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_44fa63e7d0b58fc0d95987911dd702f5ec1dac2c1af63de49183276a7a8f82fb",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_8a80df6e1be942826bddcb531d6c17e008bc5f8fbbb3be7351b689ca953bf714"
+                }
+            },
+            {
+                "id": "68808",
+                "description": "Instrumental [Chorus]",
+                "duration": 28.1,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_94a223ae9d68949c54eddbcc6e1d3b84874099a0045ee371d5507496a13ea798",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_85c4e7ebde28a2d3c8387e47f55fc298d1ca259b3908e1710af8d8d73eb5ab3d"
+                }
+            },
+            {
+                "id": "68809",
+                "description": "Instrumental [Full]",
+                "duration": 168.96,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_d177d1b16e0b557e1691c060178de1564e1f8bf27b4c985f7536cc43cb80e20d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_d9898f5462deee2f52dece7b9392ab868d0b17f3f3866767256f262547743d62"
+                }
+            },
+            {
+                "id": "68810",
+                "description": "Instrumental [Intro]",
+                "duration": 17.38,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_a7d5287aa97b83d2b8890c150b3f976fb2a2400997e93588ad3935b49182123a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_908c124ffddb0a3991f2b398afe94c2db66f5b141c589dee9df3df8482b46c48"
+                }
+            },
+            {
+                "id": "68811",
+                "description": "Instrumental [Verse]",
+                "duration": 28.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_5b61fe5f3750b9074e7122ba29938f6b73ca7b34849073c2e2802e8c6fb7be8b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_29081d018a6c9fbb0ee899f146daf4218cd17c63110e4813233a7636ee721fb7"
+                }
+            },
+            {
+                "id": "68812",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 17.38,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_66b9d949103f4f20dba0a704dee7b6124fe853dd4db0a531aa02abfdc6c3d8e6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_870fdf277bbd809e1aaaa26d2d6880078d4c3f7428e80bdeeba8ece98d66f4d0"
+                }
+            },
+            {
+                "id": "68806",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 28.1,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_dfa64cc06e5b6e59cd3deaa658a3db1268168f5af9ce6642c18e9c0283a02c0c",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_b36c7e56fd624174b40c38629272732020b639779881eef1872c3921e8a0b6cd"
+                }
+            },
+            {
+                "id": "68813",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 28.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/mp3_GHOSTBEATZ_PhiladelphiaBounce_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_2114498102e51a18fe512d268543ee56c0b251459b8b1bd684e81bf596567f70",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d4deb2ea2213481a95131d17c4d0e5f1/GHOSTBEATZ_PhiladelphiaBounce_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246488_b32b9e6f13e86193ef8bc01d9587b9f87b5fcba4ad7d98d7dae617d2a735c6de"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16186,
+        "title": "Pembrokeshire",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "212",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/212/pic/cody-martin.jpeg?w=100&h=100",
+                "name": "Cody Martin"
+            }
+        ],
+        "tags": [
+            "Classical",
+            "Orchestral",
+            "Soundtrack / Cinematic",
+            "Score",
+            "Underscore"
+        ],
+        "audioFiles": [
+            {
+                "id": "68640",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 183.84,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_807fe6bbaa366d0f495d70505def6d749220a692d48290e6c36cc58deb287ddf",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_4589eb875aa1ecd85da9a6e77c2d897b552bd580b72a9e8adc33c0bb04ab1a13"
+                }
+            },
+            {
+                "id": "68639",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 52.06,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_790ac5b7a036b177e4f8848a3cad5bd1bfaf8c269bfef6aada7b03fdd012fbd7",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_96511fd589c2c75728468fc5e78211f5559edac197e6947ece08242305339609"
+                }
+            },
+            {
+                "id": "68641",
+                "description": "Instrumental [Bridge]",
+                "duration": 31.54,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_INST_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_bb97625ee36c56425136da40d9ad8b1121223d390ebf7bbb15621a9b8dda6cde",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_INST_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_324ded2555fe0e3a0bad5ec7b85cc5a51a6bfe332a606c2afdb6ead04fb68303"
+                }
+            },
+            {
+                "id": "68642",
+                "description": "Instrumental [Chorus]",
+                "duration": 52.06,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_eea85f2446458a41ce7168f3244ebe570f114be0f3a7eea87500866734a6a6dd",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_e92e6f7a8cc2584d2d78a5113e4a637d8a826be11b04524cb53041aac8d5c280"
+                }
+            },
+            {
+                "id": "68643",
+                "description": "Instrumental [Full]",
+                "duration": 183.84,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_485b52e253a96a41906bbb9e2257ab02101cf5ccc7b11aa8c0e0ca815a1e5dcf",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_b040b7f45130124ec406dfd3c40c0809104187184f23c1a34fdbbdff166e5c0d"
+                }
+            },
+            {
+                "id": "68644",
+                "description": "Instrumental [Intro]",
+                "duration": 40.0,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_fe28b190d1b31076920476c8b47c8d0b69cd207ddf9840ede91c7f4b2664c66b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_16b1048c16d85a66bd9b100f6263878441f013e57f6f7241e0981bc43a78ce2f"
+                }
+            },
+            {
+                "id": "68645",
+                "description": "Instrumental [Verse]",
+                "duration": 39.66,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_4d8b79d7568ce2f0b27c821f57c83d5d514e3e1c566f0d883cef1166212fbb21",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_3e10acdd9a7671e145355b9d006294f310146abf1915e441d00630a53420405c"
+                }
+            },
+            {
+                "id": "68646",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 40.0,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_7623e0dec10e4147c8d3f4ee60963f477f060cddd74bbe85f01d0464e9e7bc1b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_c4ab8c06e4178df5bdddd06f8efcf6a5be783e1c1817bd470a5a0e887756155e"
+                }
+            },
+            {
+                "id": "68638",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 31.54,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_1a256dc3636513fc435ba60132e8240bd9a29888861f291e0839528be1ebe89f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_64ab3852ce1f22e6880be5b942c2e35165c80b9e1d2b839e90d1904710b8e446"
+                }
+            },
+            {
+                "id": "68647",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 39.66,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/mp3_CodyMartin_Pembrokeshire_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_5702d5a32c4985ba291c2a1ed264b93107f96a9bedc8bdb86842fc4606039cd0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3259c2d72f54de8af825dce804efdf1/CodyMartin_Pembrokeshire_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246486_78d71c6f73999d5c6227c60a6aa8191fc765fbcf0a57eea9db489b6038197347"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16176,
+        "title": "The Future Is Bright",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "675",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/675/pic/46cd382412.jpg?w=100&h=100",
+                "name": "LNDÖ"
+            }
+        ],
+        "tags": [
+            "Corporate",
+            "Pop",
+            "Rock",
+            "Soundtrack / Cinematic"
+        ],
+        "audioFiles": [
+            {
+                "id": "68566",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 184.51,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_aef954b1384fd65103cffd51a4286751f3bc489bda9994e91514eb1bbf9fd1db",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_cf649bcfe1827d9b165003897b33358314d39a16818982a0869591408d01da13"
+                }
+            },
+            {
+                "id": "68564",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 40.04,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_cbd4e729a4facf361edd3130a828ec8f53b261f9c2ed95b3f85e7088f036def6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_cf4ba6b2046d4d7380aa863a8b60e68af26f1ab1e193da7f7510114890743487"
+                }
+            },
+            {
+                "id": "68565",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 26.04,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_382949f091c900ff706e9581d84e897e222c356ea434b7728cf262709d9c31e4",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_1aec8af2519c3936b42738be047d097c07f076070abeb278744015f4388642bc"
+                }
+            },
+            {
+                "id": "68567",
+                "description": "Instrumental [Bridge]",
+                "duration": 40.04,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_INST_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_d8519486489affa79da04094b15c8e591c9b98b791e34b9cf7e0184fa9afe890",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_INST_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_778ef077cc21f355f9febb453c133b2f6080869bccdcad5f16e44a321b769787"
+                }
+            },
+            {
+                "id": "68568",
+                "description": "Instrumental [Chorus]",
+                "duration": 26.04,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_dc941e8a77609a2443753dc2c69d10e92185a3b9d7b5b59c0b3d679403959a5a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_fea800695492e862cfc510fd99882ba3f136b9f6a453f65ad6f3e228a6c6c32e"
+                }
+            },
+            {
+                "id": "68569",
+                "description": "Instrumental [Full]",
+                "duration": 184.51,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_630e50c2e34cc30e7c9bad166617269f1117cc0591ab0197ca872557a8626432",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_73e1f40cc91d060e003493fcd05803f42a42a2f0b7a0e8cb8b2c17f73fb7839e"
+                }
+            },
+            {
+                "id": "68571",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 33.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_e608d1352f4fc00b0989fab8ecb0d0862d2b59465d078ec85853c6d3bdfa07f8",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_7106f1e9004595e8525b179fa266d8769164117db6541b83c12c71fc7fe2c516"
+                }
+            },
+            {
+                "id": "68570",
+                "description": "Instrumental [Intro]",
+                "duration": 33.33,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/mp3_LNDO%CC%88_TheFutureIsBright_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_29df6dc4133e7ebaac0608c4c5a20c47734f83f94eb84828118a070ebd52dd54",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/ceef2bdfdc68450aa9856e55fbdff3f1/LNDO%CC%88_TheFutureIsBright_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246485_7257aaa601aba5a4ebd6a8f2851e28e1395fff0f94157ede307ceed89c07a5b7"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 16148,
+        "title": "Historique",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "410",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/410/pic/screen-shot-2020-04-27-at-3-29-44-pm.png?w=100&h=100",
+                "name": "Sam Barsh"
+            }
+        ],
+        "tags": [
+            "Hip Hop",
+            "Rap"
+        ],
+        "audioFiles": [
+            {
+                "id": "68400",
+                "description": "Instrumental [Primary]",
+                "duration": 200.28,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/mp3_SamBarsh_Historique_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_a7b50e33d9a3d06c3622cf72d68c6920db434b042d9068040449f8385e7dcf5f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/SamBarsh_Historique_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_81af22c7b547fc9b46bca4e7a6277b9ecb081d14bf2b24ce86a436a6ed2b1b65"
+                }
+            },
+            {
+                "id": "68398",
+                "description": "Instrumental [Bridge]",
+                "duration": 29.91,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/mp3_SamBarsh_Historique_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_0eb97c86e87a81a50256be426b1e9d4759b6fd86cbedcea5031c7aef499ca22a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/SamBarsh_Historique_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_971ee12e373ab69342f886a80f94b8b7efc990896a3f1dc3f72770e280b1b348"
+                }
+            },
+            {
+                "id": "68399",
+                "description": "Instrumental [Chorus]",
+                "duration": 29.91,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/mp3_SamBarsh_Historique_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_d4a464ad46574b88393e17188f3ef22ecbb0913ab0efd1d3414108480fade0e4",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/SamBarsh_Historique_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_d6e7746169c0ad5036c7b4e2ce4628970412dac395a131e9a1a8ede48690876a"
+                }
+            },
+            {
+                "id": "68401",
+                "description": "Instrumental [Verse]",
+                "duration": 29.91,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/mp3_SamBarsh_Historique_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_1d58bd6680860eba66be4e2969b985642a07fd3181b66c5fb0d3d84df773746c",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/11affbc59f034786a79bf2f33c75f9f1/SamBarsh_Historique_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246484_faff523d2c6b986cf82569cebb1ae1d258950d433f6e63948415ecf5acaf08cc"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 16058,
+        "title": "Here With You",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "261",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/261/pic/8e6b7a606a.JPG?w=100&h=100",
+                "name": "Moments"
+            }
+        ],
+        "tags": [
+            "Soundtrack / Cinematic",
+            "Ambient"
+        ],
+        "audioFiles": [
+            {
+                "id": "67869",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 298.78,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_ab6a9742e74c6e028d30dd82424d91afa9420a5ebbd0629338f9e0697490aab8",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_a32b86f86353ee0d72d478f7576fc1c934e0c10124479b5bccf5dc880856d973"
+                }
+            },
+            {
+                "id": "67867",
+                "description": "Instrumental [Verse]",
+                "duration": 53.84,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_b9e1edad1ead62a6e3b86e428227395431be33988d64200e97372808728adbd6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_88563513e4ec01b7a0abee23e0e498993f5a31bcb7262904e3da6eeab34f5edd"
+                }
+            },
+            {
+                "id": "67868",
+                "description": "Instrumental [Intro]",
+                "duration": 52.87,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_7b2e1d17e064e6b7f566cacf17b95298d755456e19f23fb3635e0a01a2a161c1",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_4e7e6064a504c672e9e4eac8912b9e00983bab666cd3ee0ec1b6e6d5976c8323"
+                }
+            },
+            {
+                "id": "67870",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 53.84,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_83206b53ac46e33561e9c18f8b8b05d268222bafb374b6a528071abc5b8c89bf",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_67d2c5c37f4677d538c9bc7edc9c1e98e170309d26472d0875360395663f5fd6"
+                }
+            },
+            {
+                "id": "67871",
+                "description": "Instrumental [Full]",
+                "duration": 298.78,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_8fc719bdd3ffabdf4c79dbb40976bd01b7762d3c8d36ab41a162b08081fbe423",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_23c0d766e96abafa83c5fb2bb1a28796d8e9c8e315558ed87e29ec2534b13f00"
+                }
+            },
+            {
+                "id": "67872",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 52.87,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_2d5aaec8eb35a189764be57e275fdeafe11a6dbe60ce02053c3b0501e35c9e78",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_1174bf4b21a44d0fa11d19781509be348a0f6cf7f0cc72ce48d96ed13415c18c"
+                }
+            },
+            {
+                "id": "67866",
+                "description": "Instrumental [Chorus]",
+                "duration": 63.02,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_6a3b6afb41dccce09e872e954c1ace416b94b311880db945f9e5387931a49ee0",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_9b493d0fc437f0df8ea294040d6684cc1a4a954107ef7081a7a44a981863fbda"
+                }
+            },
+            {
+                "id": "67873",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 63.02,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/mp3_Moments_HereWithYou_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_548d0d6d41be6b858283649ea4f9fa82179bb0bc3f7d966c1f4335043284c14f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/916bcb0e1af340a88b8c465162c955f1/Moments_HereWithYou_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246478_b3018e3af58822740e39fef55610ab6541e896f34f4842ababcb180966d5dccf"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 15968,
+        "title": "Morning Sunshine",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "675",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/675/pic/46cd382412.jpg?w=100&h=100",
+                "name": "LNDÖ"
+            }
+        ],
+        "tags": [
+            "Indie",
+            "Soundtrack / Cinematic",
+            "Underscore",
+            "Acoustic",
+            "Cinematic",
+            "Folk",
+            "Corporate"
+        ],
+        "audioFiles": [
+            {
+                "id": "67254",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 227.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_ffb7f64f3918723c05606f75cc2689db74ba111f51a66516190867d1ee291091",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_9b5247f8a75e8aaa0c02fd6ea93bcf8683b31b2036d68bb28689272aaffe1f1b"
+                }
+            },
+            {
+                "id": "67253",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 53.83,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_0e03cd9be47212caeb97d7d8b6658a8f1aac5720e16e79c6335666c214c5d2a7",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_a374f8252f4d354a0bb1de5b29fc0cebcd210db0d9fff6b742e29bdba1572afd"
+                }
+            },
+            {
+                "id": "67255",
+                "description": "Instrumental [Bridge]",
+                "duration": 31.41,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_INST_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_262d1b4f84923236acff365ff06a79e94ba5f64f51c9f97c3ef4295998fbad46",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_INST_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_08e1642faf3681c785db15bcd4681d828dd9827f41be6a0234eec0ebb2775351"
+                }
+            },
+            {
+                "id": "67256",
+                "description": "Instrumental [Chorus]",
+                "duration": 53.83,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_115a162f21cb8cd94d313fe2d7f3bdf94b82842ff2f1fba05eadbaf21ee4122f",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_3f033eac67bd9e4e9d75721809b2199c3f7f3e8dc65715d9621a3b3bd41d084a"
+                }
+            },
+            {
+                "id": "67257",
+                "description": "Instrumental [Full]",
+                "duration": 227.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_9dea423eb3a44f0dbf2280c07b0c6b6b49d59ed676c0884aadbadef97e118647",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_781c96a6a9c2c5efe22e911f3477c9c332c13605f780cad8ea7ef310dab862ad"
+                }
+            },
+            {
+                "id": "67258",
+                "description": "Instrumental [Intro]",
+                "duration": 33.7,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_127198c08db263a2faf2160cef4e893564f410a9018017c24d0130f16aad3723",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_c8902b2c339d6ad274975eac06f725232b96af926fb3791d16f4e8c30c06b3c3"
+                }
+            },
+            {
+                "id": "67252",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 31.41,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_1355db4deb355ff0fc2003504d2b837b6d70cbc9734536ed46b142afa590f5aa",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_62c9fb44eb18aa7eea4f8304b21233bc609e0b21c949c0109350484620172d5f"
+                }
+            },
+            {
+                "id": "67259",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 33.7,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/mp3_LNDO%CC%88_MorningSunshine_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_3e57646c27c511db513ec7a0a1bb3a36669fab0aa201cf75724a2e6bb89917c2",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c0123493c4c440d1abc6f19dad67f4f1/LNDO%CC%88_MorningSunshine_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246464_c94abe4351badf2460b1172dcc8b17b36ef97ec2ff3add37923e3fe730e872a7"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 15942,
+        "title": "Match Point",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "659",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/659/pic/7ed3888d8e.jpg?w=100&h=100",
+                "name": "Salon Dijon"
+            }
+        ],
+        "tags": [
+            "Rock",
+            "Corporate",
+            "Hard Rock",
+            "Southern Rock"
+        ],
+        "audioFiles": [
+            {
+                "id": "67117",
+                "description": "Instrumental [Primary]",
+                "duration": 127.2,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/c35135a0efbe481aa9a1638048a684f1/mp3_SalonDijon_MatchPoint_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_e57120cf6795b3e5e1159b96f46f911175f73686dadfac31dbf00e7c74634919",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/c35135a0efbe481aa9a1638048a684f1/SalonDijon_MatchPoint_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_6223ebce387895a141a72bef465ed88c54d74f9a4717bcda7799b98aa13c21f1"
+                }
+            },
+            {
+                "id": "67112",
+                "description": "Instrumental [Chorus]",
+                "duration": 29.45,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/mp3_SalonDijon_MatchPoint_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_9a68cdf79cc50049d68f7aa8c844a06d27e9fd786b5441e770ec219032f57bb9",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/SalonDijon_MatchPoint_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_06c66a347797df0da1adfa0f38b2363a0a9941906147030e51264e22f92262a2"
+                }
+            },
+            {
+                "id": "67114",
+                "description": "Instrumental [Intro]",
+                "duration": 19.57,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/mp3_SalonDijon_MatchPoint_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_c794a2e1120d0bbb53e623d6742330fbfd9fc615fa9aa20df73304e183a3cad6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/SalonDijon_MatchPoint_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_292c708e864a71bfae62ee92120b124f2d640458251adf0c2b01086fe498c941"
+                }
+            },
+            {
+                "id": "67115",
+                "description": "Instrumental [Verse]",
+                "duration": 17.15,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/mp3_SalonDijon_MatchPoint_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_54decbba9eb12620fa95ad5295342cf173054ff1f7f04d2effe39ab791797534",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/SalonDijon_MatchPoint_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_19c11cfb49189ebe96948a75e6c7e6eab05b08579e0876258da7752d2e77185c"
+                }
+            },
+            {
+                "id": "67111",
+                "description": "Instrumental [Bridge]",
+                "duration": 29.45,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/mp3_SalonDijon_MatchPoint_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_6e19a1caf922844e8a6591dbcc5a33d2d3a2134ccd10e1e70ff1a4f691fb8919",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/1779e66021fc46b890e47a7adabcf7f1/SalonDijon_MatchPoint_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246462_79f1c63c54332e6494d2191f42c6784c6623bf54a3e72f19d05f195a60e635d6"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 15879,
+        "title": "More Than One Way To Go Home",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "667",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/667/pic/99511cf8b6.png?w=100&h=100",
+                "name": "Amherst"
+            }
+        ],
+        "tags": [
+            "Acoustic",
+            "Ballad",
+            "Folk",
+            "Indie"
+        ],
+        "audioFiles": [
+            {
+                "id": "66698",
+                "description": "Lead Vocal + Background Vocals + Music [Primary]",
+                "duration": 192.13,
+                "instrumental": false,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_b48fea931faab61b7ca5cd65a88eafbb82b1cb2a834e1ee6cdbd36e2f8d2e130",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_01651645053bf8f495112b40e8db996e5dcb940391315439bf4ffef499ecc13e"
+                }
+            },
+            {
+                "id": "66697",
+                "description": "Lead Vocal + Background Vocals + Music [Chorus]",
+                "duration": 23.01,
+                "instrumental": false,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_87fcff7235b77a6a82e785dd1d5852f087b4921caa9bde4893fa9b7a73182436",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_1fa781d44d29b0c241ed425268cd79a9c03127d9502fbaed3fd994d8bd909483"
+                }
+            },
+            {
+                "id": "66699",
+                "description": "Instrumental [Bridge]",
+                "duration": 26.3,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Inst_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_7e2a4f7d367c781822dfe7249d32aa38fae0f7d2a3e7e8f122e437ea0e048e2a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Inst_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_e2c467e8a7bf8aaf941a2ba7c37dffba65e2fd879e9f2020985c130f635a804c"
+                }
+            },
+            {
+                "id": "66700",
+                "description": "Instrumental [Chorus]",
+                "duration": 23.01,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Inst_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_d129bdbd6991ea4ab4377e8b68eb86594fd2f92c4b6b58e772f832be6448c7ad",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Inst_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_61740c1000b4726576b9bee1e96c9eec0731a5e0ebfe0ebd55e62ee2075c2ff6"
+                }
+            },
+            {
+                "id": "66701",
+                "description": "Instrumental [Full]",
+                "duration": 192.13,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Inst_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_980f8b116fd6e9db18e12759e94387f0f3b9c41d412f2e280d6846dfd5bdca1a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Inst_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_0014617b3c40bc37547941b3899f1f0473ca3d21b36a11b10afdf188579352e6"
+                }
+            },
+            {
+                "id": "66702",
+                "description": "Instrumental [Intro]",
+                "duration": 14.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Inst_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_faa0d757f9c96b38348df03fc5c2e73c6180215f36d4c4050c798ed4673653b6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Inst_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_cd5240d0268d4402c831b36a30b807e9637a033709c710f7674059e34ae2cad5"
+                }
+            },
+            {
+                "id": "66703",
+                "description": "Instrumental [Verse]",
+                "duration": 26.3,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Inst_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_241ee2d3ecf61e7e7e5f2303f61d88b5254ed0560016f6528bcc58c296949d9b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Inst_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_106f7152df943e384a9a17ec9e1a17c05842872fbb59bc84f4439e6346357922"
+                }
+            },
+            {
+                "id": "66704",
+                "description": "Lead Vocal + Background Vocals + Music [Intro]",
+                "duration": 14.8,
+                "instrumental": false,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_fe31058600738d41ca8f92162406745eb81ffa1d214c331d17116364a7878d98",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_abd061c296ba72bcea20e94b7bc4406ccbfec0ec63e8325b0d2de7c5c3c5df45"
+                }
+            },
+            {
+                "id": "66705",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 26.3,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_TV_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_a44ca4ac5c2fa2fc0adabc008d9dc3cb8aa445d54cb50520849c0ee215d640d8",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_TV_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_754422b4f6c3678d36377483ed7b181390168985da3f162fd06bbef0994bffd3"
+                }
+            },
+            {
+                "id": "66706",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 23.01,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_TV_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_ba5caee80d67c8bfce4a14153f00cd4790185f9e2d2cee2260a4ae06c0ee5867",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_TV_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_a8a82e8d226ea109d40648dcc80cdbd5640ac6e1147fef9d7c0410ae253fd2d0"
+                }
+            },
+            {
+                "id": "66707",
+                "description": "Background Vocals + Music [Full]",
+                "duration": 192.13,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_TV_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_77af82ef58b282dcb063ab5ab5a3c598275bf6ce0d59a8629da021f1f87e4f4e",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_TV_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_68f1c131513b850c55439a067b31923138385d01dc3e06742bec8e614cd8eaaf"
+                }
+            },
+            {
+                "id": "66708",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 14.8,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_TV_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_3fc648abb785598b27debc39d9765e8426ea590f43165c020383d49a116c7f2b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_TV_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_34c649d2fbdd96bc1007b8c3319a55e63c20b27210770e0894e9b14a353cc661"
+                }
+            },
+            {
+                "id": "66709",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 26.3,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_TV_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_67ed46274f4548d865c5d74f7dda9900e8c4da153af4d3c337b671b352043083",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_TV_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_8c1847c2bce25047a0d8cdbd58576479f1cf159cadcc999e89acd919c53d1b86"
+                }
+            },
+            {
+                "id": "66696",
+                "description": "Lead Vocal + Background Vocals + Music [Bridge]",
+                "duration": 26.3,
+                "instrumental": false,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_5010192dd1cfeee60cb7b29554520f757ce3c647e02f9167b92bb6e215d9d64e",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_d6745e7a17b9472e4624c8dccf3e82a718709854720f00a7365b716017863626"
+                }
+            },
+            {
+                "id": "66710",
+                "description": "Lead Vocal + Background Vocals + Music [Verse]",
+                "duration": 26.3,
+                "instrumental": false,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/mp3_AndrewGalucki_MoreThanOneWayToGoHome_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_c3255f5adf51466c4df7d2f4661819b38e1c4db9326b05f4d8359d5bc7e0f895",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/d3e40b063aee44a68d70e46ed54711f1/AndrewGalucki_MoreThanOneWayToGoHome_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246458_34f6b39b366323c6a45b27ee2ea093a963647c66a92196ad65967645d4015c58"
+                }
+            }
+        ],
+        "paid": false
+    },
+    {
+        "id": 15874,
+        "title": "Created by Design",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "212",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/212/pic/cody-martin.jpeg?w=100&h=100",
+                "name": "Cody Martin"
+            }
+        ],
+        "tags": [
+            "Cinematic",
+            "Modern Orchestral",
+            "Electronic",
+            "Soundtrack / Cinematic",
+            "Underscore",
+            "Score",
+            "Corporate"
+        ],
+        "audioFiles": [
+            {
+                "id": "66668",
+                "description": "Background Vocals + Music [Primary]",
+                "duration": 225.12,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_3ff5c7037a616892843ee10564379f3740448559e27dea73ce79644899a8be9d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_4e1acdb9ee56b7a64dca456c0157a93b33d31a852b49876be9884e2934a7d91d"
+                }
+            },
+            {
+                "id": "66667",
+                "description": "Background Vocals + Music [Chorus]",
+                "duration": 89.18,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_dc054852b4500c598b801ff230191372cc63712396603d085d01bdca69467a19",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_ed56943f45fd25d1a9819ecac6f9fd6144b458fc902effc4a7eccfc529b4d7fd"
+                }
+            },
+            {
+                "id": "66669",
+                "description": "Instrumental [Bridge]",
+                "duration": 47.61,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_INST_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_fd54f33264b2f07d7e00c780d8baab72195484b0808a175da5717540f69e550c",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_INST_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_2a82273bb656540c165163cc718bbecf1e082d6585da279896ce40a6e701907e"
+                }
+            },
+            {
+                "id": "66670",
+                "description": "Instrumental [Chorus]",
+                "duration": 89.18,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_INST_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_ca5e87a7bdc7cbb1544167ba91555712463f586e04195673b4fbf87fb2331bb9",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_INST_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_96090d19660ff4aa5e382adcc20c21b86c4f8e1688e0878a82ed187e9dfd4f53"
+                }
+            },
+            {
+                "id": "66671",
+                "description": "Instrumental [Full]",
+                "duration": 225.12,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_INST_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_cf8035cea9d2e706991c9b1e2dfb13a5ae368a7d57629ebe624ec9f60f5e5750",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_INST_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_9321e2a981aedba20a9a70060313441e6f0180688979889dba8451c8338fb871"
+                }
+            },
+            {
+                "id": "66672",
+                "description": "Instrumental [Intro]",
+                "duration": 28.06,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_INST_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_4785b972cc2226f63710859e8f89a42cc3a46c07bdc4753c6778655a731ef486",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_INST_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_0f911e85335fd87bf713b07e9a05cf1659b7652c9438daf1f448e58a579d8ebf"
+                }
+            },
+            {
+                "id": "66673",
+                "description": "Instrumental [Verse]",
+                "duration": 37.49,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_INST_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_e52e0bc79752cf2ca4b978c14d7847a6f8fa6e840e5292218212eca041ddb730",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_INST_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_c06dab6ff25ccc770dd1ee0a259c8ce72e96587f8c01edb670e3ea29cff27661"
+                }
+            },
+            {
+                "id": "66674",
+                "description": "Background Vocals + Music [Intro]",
+                "duration": 28.06,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_2ef7a9e56899eab816761a282dd350ab7c82946a326d607256c77b34562c8930",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_02032517e8f0ed2043d2141361229e11552d13b52c538114befefd8520a2ffad"
+                }
+            },
+            {
+                "id": "66666",
+                "description": "Background Vocals + Music [Bridge]",
+                "duration": 47.61,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_1e152748979998c2a501109ee9cceb0e915f8f23c5d3b5df33af228089e9c698",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_0a1d96020e3c7dfd9ae445e35044baf53a17d6db686851a869a5a99f4bb8a7df"
+                }
+            },
+            {
+                "id": "66675",
+                "description": "Background Vocals + Music [Verse]",
+                "duration": 37.49,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/mp3_CodyMartin_CreatedByDesign_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_fb79ca55105fc8e2d617e51caf9bceca633276e7b7c575a42b9034bdf12b7988",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/bc52de2dcf26450d83572d80b1981df1/CodyMartin_CreatedByDesign_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246457_7abdbb7da25ee8ed7f9922e476175d1c281bb3222590a38280d50cdd5a1188d6"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 15685,
+        "title": "Going Home",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "638",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/638/pic/692655768c.jpg?w=100&h=100",
+                "name": "Anthony Catacoli"
+            }
+        ],
+        "tags": [
+            "Pop",
+            "Rock",
+            "Electronic",
+            "Indie"
+        ],
+        "audioFiles": [
+            {
+                "id": "65665",
+                "description": "Instrumental [Primary]",
+                "duration": 227.65,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/mp3_AnthonyCatacoli_GoingHome_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_78b8519db9497a2da1ef9cbdddbca37f3f2a9f291f5ade93cf6f12a438a7dea6",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/AnthonyCatacoli_GoingHome_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_d8925b144a5c291f0a9d1d410d2128bd33af1cfd8f17230f9c02d7ee9cc2c22f"
+                }
+            },
+            {
+                "id": "65666",
+                "description": "Instrumental [Intro]",
+                "duration": 14.12,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/mp3_AnthonyCatacoli_GoingHome_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_9679f0cc6dc36bbd236f7cbf4b3bc40d6e8f6e0d8ac3fbd9566268d33dc4c800",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/AnthonyCatacoli_GoingHome_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_1c94f2cbbc60568b686c339cb70315a0bfe12069be6e18706bf6a410390f2bb3"
+                }
+            },
+            {
+                "id": "65664",
+                "description": "Instrumental [Chorus]",
+                "duration": 45.88,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/mp3_AnthonyCatacoli_GoingHome_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_ba83ab7807071c56ffbc20664a8b41e7cf11f503b1add6bcd390fc9517625c0b",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/AnthonyCatacoli_GoingHome_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_8375e5b1b93ac82c751a73c47262a83ac850696e617360128700e3676615a182"
+                }
+            },
+            {
+                "id": "65663",
+                "description": "Instrumental [Bridge]",
+                "duration": 17.65,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/mp3_AnthonyCatacoli_GoingHome_Bridge.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_b0e6e29fa9cf20c00f392896208eba11e7b8063a8515b524e2cbf9c37dbc826d",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/AnthonyCatacoli_GoingHome_Bridge.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_4544594f3ebd04fee7ada3b6579b3564f1f42eccebfd72a802d6cbc1a1dffac6"
+                }
+            },
+            {
+                "id": "65667",
+                "description": "Instrumental [Verse]",
+                "duration": 33.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/mp3_AnthonyCatacoli_GoingHome_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_c7fbaeb7180e331082802ffeae18cef6ced690bf810dec6e959ff8e56fba69ed",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/93c8f75027ab49f89abe4458945cbaf1/AnthonyCatacoli_GoingHome_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246446_b2ddb0fb0cd2cd0799f15eeb14d37819bef8e42dfa47d97276748daf465a24ee"
+                }
+            }
+        ],
+        "paid": true
+    },
+    {
+        "id": 15500,
+        "title": "Ever After",
+        "explicit": false,
+        "artists": [
+            {
+                "id": "432",
+                "imageUrl": "https://soundstripe-production.imgix.net/uploads/artist/432/pic/image-from-ios.jpeg?w=100&h=100",
+                "name": "Reveille"
+            }
+        ],
+        "tags": [
+            "Folk",
+            "Ballad",
+            "Soundtrack / Cinematic"
+        ],
+        "audioFiles": [
+            {
+                "id": "64566",
+                "description": "Instrumental [Primary]",
+                "duration": 164.58,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/mp3_Reveille_EverAfter_Full.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_758fe321cbc87b5c263221cef233e4bdd9eefb1a10a2dfbccdd6b6e9d3022ce4",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/Reveille_EverAfter_Full.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_936b471d1afcb57793de42baa4331ff99cff3fef427f402cb4ccae199fc2a536"
+                }
+            },
+            {
+                "id": "64565",
+                "description": "Instrumental [Chorus]",
+                "duration": 20.0,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/mp3_Reveille_EverAfter_Chorus.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_bdcf04f0e42312a412156e0ef15fb02becb4b601e19426c7f47a5a78856962fb",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/Reveille_EverAfter_Chorus.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_f3b73452cb8af0d0be9a840469b246266adb680c9d7f6dcbf6f1a9f504f335ee"
+                }
+            },
+            {
+                "id": "64567",
+                "description": "Instrumental [Intro]",
+                "duration": 50.44,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/mp3_Reveille_EverAfter_Intro.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_c97aa6d799bdbc50fd4f348b7ebee752df1645e2db3611f2b41eef373c3a9f42",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/Reveille_EverAfter_Intro.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_8d2f2619dd919c65fc42a75133db89f1d0c6b79c3ae35fea05bc52ea3a553a0f"
+                }
+            },
+            {
+                "id": "64568",
+                "description": "Instrumental [Verse]",
+                "duration": 43.53,
+                "instrumental": true,
+                "versions": {
+                    "mp3": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/mp3_Reveille_EverAfter_Verse.mp3?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_91ddbf49711bf5427ab1d20fd6649aaff0284d0ae3416acfd19631c94252617a",
+                    "wav": "https://cdn.soundstripe.com/uploads/audio_file/6502390f9fa64c73bcaaa77ab48aaaf1/Reveille_EverAfter_Verse.wav?key=4fd678ff-716c-45ec-95af-aac08a90820a&token=1697246433_b5b64c07c423adfc925903354255ae6b594dcb81c6c893053bde8f67ae516bd2"
+                }
+            }
+        ],
+        "paid": true
+    }
+]

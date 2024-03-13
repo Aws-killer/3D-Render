@@ -1,0 +1,299 @@
+[
+    {
+        "voiceId": "5436957b7d364ce79bc8d37e",
+        "name": "Lucy",
+        "color": "#266DD3",
+        "displayName": "Kylie",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Lucy.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "2ade011b9fa4443c9af3acd5",
+        "name": "Emma",
+        "color": "#9B4AB8",
+        "displayName": "Emma",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/2ade011b9fa4443c9af3acd5.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "ece80d8188fa4778ab549fd0",
+        "name": "Jennifer",
+        "color": "#FAB400",
+        "displayName": "Jennifer",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/ece80d8188fa4778ab549fd0.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "826cbf58fb1245369a1f5d9b",
+        "name": "Anthony",
+        "color": "#403DBF",
+        "displayName": "Anthony",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/826cbf58fb1245369a1f5d9b.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "9ea55391f75a48edb13e5630",
+        "name": "Sophia",
+        "color": "#FE810E",
+        "displayName": "Sophia",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/9ea55391f75a48edb13e5630.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "5f9b7eb2d2794cb1b85ec8da",
+        "name": "Samantha",
+        "color": "#FAB400",
+        "displayName": "Samantha",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/5f9b7eb2d2794cb1b85ec8da.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "c60166365edf46589657770d",
+        "name": "Ben",
+        "color": "#31A93D",
+        "displayName": "Ben",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/c60166365edf46589657770d.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "d323529cbc79441abc65c0af",
+        "name": "Charlotte",
+        "color": "#358E64",
+        "displayName": "Charlotte",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/d323529cbc79441abc65c0af.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "0ecfaf9c48a24b1da871f20a",
+        "name": "Frank",
+        "color": "#5DB1EE",
+        "displayName": "Frank",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/0ecfaf9c48a24b1da871f20a.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "359adc49dbaa4de0b4a19c49",
+        "name": "Logan",
+        "color": "#BA324F",
+        "displayName": "Logan",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/359adc49dbaa4de0b4a19c49.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "2e7c549a1fcf4efba133f73e",
+        "name": "Matthew",
+        "color": "#18BCB2",
+        "displayName": "Matthew",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/2e7c549a1fcf4efba133f73e.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "6a1b284fdf8f43658e0d962c",
+        "name": "Michael",
+        "color": "#FF5B5B",
+        "displayName": "Michael",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/6a1b284fdf8f43658e0d962c.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "d4d49ad195fd4877a9b40b2d",
+        "name": "Robert",
+        "color": "#A8C012",
+        "displayName": "Robert",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/d4d49ad195fd4877a9b40b2d.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "2a55f0fcdca345cda94c262a",
+        "name": "Victoria",
+        "color": "#653BBE",
+        "displayName": "Victoria",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/2a55f0fcdca345cda94c262a.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "44580aaacdc64fa6a0e3c3fe",
+        "name": "Lucas",
+        "color": "#CD42B7",
+        "displayName": "Lucas",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/44580aaacdc64fa6a0e3c3fe.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "9785244c974b4c70a259ef93",
+        "name": "John",
+        "color": "#5DB1EE",
+        "displayName": "John",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/9785244c974b4c70a259ef93.wav",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "2b14a70f78c248e28200d7a6",
+        "name": "Olivia",
+        "color": "#2596BE",
+        "displayName": "Olivia",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/2b14a70f78c248e28200d7a6.WAV",
+        "upgradePlan": "FREE",
+        "myVoice": null
+    },
+    {
+        "voiceId": "38de550f4c9b46ea816579d9",
+        "name": "William",
+        "color": "#D62839",
+        "displayName": "Daniel",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/William.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "f96e2bf4fea54decaf7d1ab1",
+        "name": "Nadia",
+        "color": "#E16036",
+        "displayName": "Maria",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Nadia.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218608",
+        "name": "en-US-Wavenet-G",
+        "color": "#008080",
+        "displayName": "Sunshine",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Sunshine.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218605",
+        "name": "en-US-Wavenet-D",
+        "color": "#FF5722",
+        "displayName": "Kenny",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Kenny.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218600",
+        "name": "en-US-Standard-D",
+        "color": "#673AB7",
+        "displayName": "Andrew",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Andrew.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218601",
+        "name": "en-US-Standard-H",
+        "color": "#3F51B5",
+        "displayName": "Melissa",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Melissa.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218602",
+        "name": "en-US-Wavenet-A",
+        "color": "#AB47BC",
+        "displayName": "Martin",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Martin.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218603",
+        "name": "en-US-Wavenet-B",
+        "color": "#A167A5",
+        "displayName": "James",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/James.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218604",
+        "name": "en-US-Wavenet-C",
+        "color": "#E91E63",
+        "displayName": "Caitlyn",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Caitlyn.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218612",
+        "name": "en-AU-Wavenet-B",
+        "color": "#867AE9",
+        "displayName": "Russel",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Russel.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218606",
+        "name": "en-US-Wavenet-E",
+        "color": "#F08700",
+        "displayName": "Arianna",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Arianna.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218607",
+        "name": "en-US-Wavenet-F",
+        "color": "#FFC107",
+        "displayName": "Sisilia",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Sisilia.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218613",
+        "name": "en-GB-Wavenet-F",
+        "color": "#C449C2",
+        "displayName": "Diana",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Diana.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218609",
+        "name": "en-US-Wavenet-H",
+        "color": "#53BB8D",
+        "displayName": "Mia",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Mia.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218610",
+        "name": "en-US-Wavenet-I",
+        "color": "#1092F9",
+        "displayName": "Fred",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Fred.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    },
+    {
+        "voiceId": "348743483218611",
+        "name": "en-US-Wavenet-J",
+        "color": "#00BCD4",
+        "displayName": "Vincent",
+        "fileUrl": "https://storage.googleapis.com/podcastle-prod-public/Voices%20preview/Vincent.wav",
+        "upgradePlan": null,
+        "myVoice": null
+    }
+]

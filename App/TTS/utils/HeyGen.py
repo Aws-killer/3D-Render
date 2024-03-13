@@ -1,5 +1,22 @@
 import aiohttp
-from App.TTS.Schemas import HeyGenTTSRequest
+
+
+
+from pydantic import BaseModel, Field, validator
+from typing import List, Optional
+import uuid
+class HeyGenTTSRequest(BaseModel):
+    voice_id: str = Field(default="d7bbcdd6964c47bdaae26decade4a933")
+    rate: str = Field(default="1")
+    pitch: str = Field(default="-3%")
+    text: str = "Sample"
+
+    @validator("text")
+    def validate_age(cls, value, values):
+        if not "speak" in value:
+            return f'<speak> <voice name="{values.get("voice_id")}"><prosody rate="{values.get("rate")}" pitch="{values.get("pitch")}">{value}</prosody></voice></speak>'
+        else:
+            return value
 
 
 class HeygenAPI:
@@ -82,3 +99,23 @@ class HeygenAPI:
 
     async def __aexit__(self, exc_type, exc_value, traceback):
         await self.close_session()
+
+
+async def main():
+    data = {
+        "account": "mebaxo5916@tospage.com",
+        "password": "HBBHN4RPs_rA$%R",
+        "token":'+DTX2g=='
+    }
+    async with HeygenAPI(**data) as heygen:
+        req = HeyGenTTSRequest(
+            text="Hello, this is a test",
+            # voice_id="1",
+        )
+        response = await heygen.tts_request(req)
+        print(response)
+
+if __name__ == "__main__":
+    import asyncio
+
+    asyncio.run(main())
