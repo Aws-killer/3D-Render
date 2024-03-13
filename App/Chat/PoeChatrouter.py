@@ -48,7 +48,9 @@ async def fetch_predictions(data):
                     if str(response.status).startswith("4"):
                         continue
                     proxy = str(p)
-                    return await response.json()
+                    temp = await response.json()
+                    print(temp)
+                    return temp
             except Exception as e:
                 print("Error fetching", e)
                 pass
