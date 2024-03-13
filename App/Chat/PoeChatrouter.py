@@ -30,7 +30,7 @@ async def fetch_predictions(data):
     else:
         # If an event loop is already running, use the current one
         loop = asyncio.get_event_loop()
-    fetcher = ProxyFetcher(loop=loop)
+    fetcher = ProxyFetcher()
     if not proxy_set:
         try:
 
