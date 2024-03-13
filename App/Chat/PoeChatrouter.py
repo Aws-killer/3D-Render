@@ -55,7 +55,7 @@ async def fetch_predictions(data):
                     timeout=5,
                     proxy=str(p),
                 ) as response:
-                    if response.status == 403:
+                    if str(response.status).startswith("4"):
                         continue
                     proxy = str(p)
                     return await response.json()
