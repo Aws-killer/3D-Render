@@ -4,7 +4,20 @@ from .Schemas import BotRequest
 from aiohttp import ClientSession
 from pydantic import BaseModel
 
+from ballyregan.models import Protocols, Anonymities
+from ballyregan import ProxyFetcher
+
+# Setting the debug mode to True, defaults to False
+fetcher = ProxyFetcher()
+proxies = fetcher.get(
+    limit=10,
+    protocols=[Protocols.HTTP],
+    anonymities=[Anonymities.ELITE],
+)
+
+
 chat_router = APIRouter(tags=["Chat"])
+proxy = ""
 
 
 class InputData(BaseModel):
@@ -14,10 +27,23 @@ class InputData(BaseModel):
 
 async def fetch_predictions(data):
     async with ClientSession() as session:
-        async with session.post(
-            "https://replicate.com/api/predictions", json=data
-        ) as response:
-            return await response.json(), response.status
+        for p in proxies:
+            if proxy != "":
+                if p != proxy:
+                    continue
+            try:
+                async with session.post(
+                    "https://replicate.com/api/predictions",
+                    json=data,
+                    timeout=5,
+                    proxy=str(p),
+                ) as response:
+                    if response.status == 403:
+                        continue
+                    proxy = str(p)
+                    return await response.json(), response.status
+            except:
+                pass
 
 
 async def fetch_result(id):
