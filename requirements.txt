@@ -8,5 +8,5 @@ pydantic
 requests
 redis
 fastapi-cache2[memcache]
-poe-api-wrapper[proxy]
+git+https://github.com/mbonea-ewallet/poe-api-wrapper.git
 
