@@ -34,7 +34,8 @@ async def fetch_predictions(data):
 
     if not proxy_set:
         try:
-            fetcher = ProxyFetcher(loop=loop)
+            fetcher = ProxyFetcher()
+            fetcher.loop = loop
             proxies = fetcher.get(
                 limit=10,
                 protocols=[Protocols.HTTP],
