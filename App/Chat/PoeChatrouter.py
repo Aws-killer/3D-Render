@@ -40,7 +40,7 @@ async def fetch_predictions(data):
                 anonymities=[Anonymities.ELITE],
             )
         except Exception as e:
-            print(e)
+            print("Error getting proxies", e)
 
     async with ClientSession() as session:
         for p in proxies:
@@ -59,7 +59,7 @@ async def fetch_predictions(data):
                     proxy = str(p)
                     return await response.json(), response.status
             except Exception as e:
-                print(e)
+                print("Error fetching", e)
                 pass
         proxy = ""
 
