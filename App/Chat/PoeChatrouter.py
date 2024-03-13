@@ -23,11 +23,14 @@ class InputData(BaseModel):
 async def fetch_predictions(data):
     proxy_set = proxy != ""
     if not proxy_set:
-        proxies = fetcher.get(
-            limit=10,
-            protocols=[Protocols.HTTP],
-            anonymities=[Anonymities.ELITE],
-        )
+        try:
+            proxies = fetcher.get(
+                limit=10,
+                protocols=[Protocols.HTTP],
+                anonymities=[Anonymities.ELITE],
+            )
+        except Exception as e:
+            print(e)
 
     async with ClientSession() as session:
         for p in proxies:
