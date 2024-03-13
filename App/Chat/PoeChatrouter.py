@@ -65,13 +65,6 @@ async def fetch_predictions(data):
         proxy = ""
 
 
-async def fetch_result(id):
-    url = f"https://replicate.com/api/predictions/{id}"
-    async with ClientSession() as session:
-        async with session.get(url) as response:
-            return await response.json(), response.status
-
-
 @chat_router.post("/predictions")
 async def get_predictions(input_data: InputData):
     data = {
