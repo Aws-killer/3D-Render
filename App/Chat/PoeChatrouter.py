@@ -12,38 +12,28 @@ from ballyregan import ProxyFetcher
 
 chat_router = APIRouter(tags=["Chat"])
 proxy = ""
+proxies = [
+    "http://51.89.14.70:80",
+    "http://52.151.210.204:9002",
+    "http://38.180.36.19:80",
+    "http://38.54.79.150:80",
+    "https://80.91.26.137:3128",
+    "http://82.223.102.92:9443",
+    "http://189.240.60.166:9090",
+    "https://189.240.60.168:9090",
+    "http://189.240.60.171:9090",
+]
 
 
 class InputData(BaseModel):
     input: dict
     version: str = "727e49a643e999d602a896c774a0658ffefea21465756a6ce24b7ea4165eba6a"
+    proxies: list[str] = []
 
 
 async def fetch_predictions(data):
-    global proxy
-    proxies = []
+    global proxy, proxies
     proxy_set = proxy != ""
-    loop = None
-    if not asyncio.get_event_loop().is_running():
-        # If not, create a new event loop
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-    else:
-        # If an event loop is already running, use the current one
-        loop = asyncio.get_event_loop()
-
-    if not proxy_set:
-        try:
-            fetcher = ProxyFetcher()
-            fetcher.loop = loop
-            proxies = fetcher.get(
-                limit=10,
-                protocols=[Protocols.HTTP],
-                anonymities=[Anonymities.ELITE],
-            )
-        except Exception as e:
-            print("Error getting proxies", e)
-
     async with ClientSession() as session:
         for p in proxies:
             if proxy_set:
@@ -68,6 +58,9 @@ async def fetch_predictions(data):
 
 @chat_router.post("/predictions")
 async def get_predictions(input_data: InputData):
+    global proxies
+    if input_data.proxies != []:
+        proxies = input_data.proxies
     data = {
         "input": input_data.input,
         "is_training": False,
