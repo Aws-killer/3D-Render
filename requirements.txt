@@ -9,3 +9,4 @@ requests
 redis
 fastapi-cache2[memcache]
 git+https://github.com/snowby666/poe-api-wrapper.git
+git+https://github.com/idandaniel/ballyregan.git
