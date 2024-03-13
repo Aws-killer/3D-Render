@@ -44,7 +44,6 @@ async def fetch_predictions(data):
                     "https://replicate.com/api/predictions",
                     json=data,
                     timeout=5,
-                    proxy=str(p),
                 ) as response:
                     if str(response.status).startswith("4"):
                         continue
