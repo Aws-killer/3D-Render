@@ -9,11 +9,6 @@ from ballyregan import ProxyFetcher
 
 # Setting the debug mode to True, defaults to False
 fetcher = ProxyFetcher()
-proxies = fetcher.get(
-    limit=10,
-    protocols=[Protocols.HTTP],
-    anonymities=[Anonymities.ELITE],
-)
 
 
 chat_router = APIRouter(tags=["Chat"])
@@ -26,9 +21,17 @@ class InputData(BaseModel):
 
 
 async def fetch_predictions(data):
+    proxy_set = proxy != ""
+    if not proxy_set:
+        proxies = fetcher.get(
+            limit=10,
+            protocols=[Protocols.HTTP],
+            anonymities=[Anonymities.ELITE],
+        )
+
     async with ClientSession() as session:
         for p in proxies:
-            if proxy != "":
+            if proxy_set:
                 if p != proxy:
                     continue
             try:
@@ -44,6 +47,7 @@ async def fetch_predictions(data):
                     return await response.json(), response.status
             except:
                 pass
+        proxy = ""
 
 
 async def fetch_result(id):
