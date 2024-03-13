@@ -58,7 +58,7 @@ async def fetch_predictions(data):
                     if response.status == 403:
                         continue
                     proxy = str(p)
-                    return await response.json(), response.status
+                    return await response.json()
             except Exception as e:
                 print("Error fetching", e)
                 pass
@@ -82,8 +82,8 @@ async def get_predictions(input_data: InputData):
         "version": input_data.version,
     }
     try:
-        predictions, status_code = await fetch_predictions(data)
-        return predictions, status_code
+        predictions = await fetch_predictions(data)
+        return predictions
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
