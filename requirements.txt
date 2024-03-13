@@ -4,9 +4,9 @@ pinecone-client[grpc]==2.2.1
 sentence-transformers 
 langchain 
 uvicorn[standard]
-pydantic
-requests
-redis
+pydantic==2.6.4
+requests==2.31.0
+redis==4.3.4
 fastapi-cache2[memcache]
 git+https://github.com/snowby666/poe-api-wrapper.git
 git+https://github.com/Mbonea-Mjema/ballyregan.git
