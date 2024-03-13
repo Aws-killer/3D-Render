@@ -21,6 +21,7 @@ class InputData(BaseModel):
 
 
 async def fetch_predictions(data):
+    global proxy
     proxy_set = proxy != ""
     if not proxy_set:
         try:
