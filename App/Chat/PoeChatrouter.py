@@ -48,17 +48,18 @@ async def fetch_predictions(data, is_proxied=False):
                     pass
             proxy = ""
     else:
-        try:
-            async with session.post(
-                "https://replicate.com/api/predictions",
-                json=data,
-                timeout=5,
-            ) as response:
-                temp = await response.json()
-                return temp
-        except Exception as e:
-            print("Error fetching", e)
-            pass
+        async with ClientSession() as session:
+            try:
+                async with session.post(
+                    "https://replicate.com/api/predictions",
+                    json=data,
+                    timeout=5,
+                ) as response:
+                    temp = await response.json()
+                    return temp
+            except Exception as e:
+                print("Error fetching", e)
+                pass
 
 
 @chat_router.post("/predictions")
