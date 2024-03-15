@@ -257,6 +257,7 @@ class DescriptTTS:
                 if response.status < 300:
                     return await response.json()
                 elif response.status == 401:
+                    self.refresh_token =None
                     # Retry the request after refreshing the token
                     await self.login_and_get_bearer_token()
                     headers["authorization"] = f"Bearer {self.bearer_token}"
