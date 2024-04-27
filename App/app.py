@@ -4,7 +4,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 
 from .TTS.TTSRoutes import tts_router
 from .Embedding.EmbeddingRoutes import embeddigs_router
-from .Chat.PoeChatrouter import chat_router
+#from .Chat.PoeChatrouter import chat_router
 
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -47,4 +47,4 @@ async def landing_page():
 
 app.include_router(embeddigs_router)
 app.include_router(tts_router)
-app.include_router(chat_router)
+#app.include_router(chat_router)
