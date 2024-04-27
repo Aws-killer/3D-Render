@@ -24,5 +24,5 @@ bs4
 strenum 
 
 
-git+https://github.com/snowby666/poe-api-wrapper.git@efd747139516c90d820e8ae4395ab60a170246e5
+git+https://github.com/snowby666/poe-api-wrapper.git@2c91207598ad930901cb9fb09734705056b7b6a9
 git+https://github.com/Mbonea-Mjema/ballyregan.git
