@@ -363,8 +363,8 @@ class DescriptTTS:
         audio_paths = []
         audio_path = ""
         for url in query.audio_url:
-            temp = await self.download_and_store_file(url)
-            audio_paths.append(temp)
+            audio_paths.append(self.download_and_store_file(url))
+        audio_paths = await asyncio.gather(*audio_paths)
         audio_path = self.concatenate_wave_files(audio_paths)
         data.add_field("audio", open(audio_path, "rb"))
 
