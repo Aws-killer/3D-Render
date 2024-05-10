@@ -22,6 +22,7 @@ html5lib
 requests 
 bs4 
 strenum 
+pydub
 
 
 git+https://github.com/snowby666/poe-api-wrapper.git

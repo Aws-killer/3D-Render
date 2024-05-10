@@ -8,6 +8,7 @@ from .Schemas import (
     DescriptRequest,
     DescriptStatusRequest,
     DescriptSfxRequest,
+    DescriptTranscript,
 )
 from .utils.Podcastle import PodcastleAPI
 from .utils.HeyGen import HeygenAPI
@@ -50,9 +51,20 @@ async def status_descript(req: DescriptStatusRequest):
     return await descript_tts.request_status(req.id)
 
 
+@tts_router.post("/descript_music")
+async def descript_music(req: DescriptSfxRequest):
+    return await descript_tts.search_music(req.query)
+
+
 @tts_router.post("/descript_sfx")
 async def descript_sfx(req: DescriptSfxRequest):
     return await descript_tts.search_sound_effects(req.query)
+
+
+@tts_router.post("/descript_transcript")
+async def descript_transcript(req: DescriptTranscript):
+    return await descript_tts.get_transcription(req)
+    # return await descript_tts.search_sound_effects(req.query)
 
 
 @tts_router.post("/descript_unsplash")
