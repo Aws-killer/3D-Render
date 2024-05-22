@@ -2,7 +2,7 @@ fastapi
 elasticsearch==7.7.0  
 pinecone-client[grpc]==2.2.1
 sentence-transformers 
-langchain==0.0.338
+langchain==0.1.0
 uvicorn[standard]
 pydantic==2.6.4
 requests==2.31.0
