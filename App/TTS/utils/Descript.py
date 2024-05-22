@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from pydantic import BaseModel, HttpUrl
 from App.TTS.Schemas import DescriptTranscript
 from pydub import AudioSegment
+import subprocess
 
 
 class Metadata(BaseModel):
@@ -53,6 +54,20 @@ class DescriptTTS:
 
         self.refresh_token = refresh_token
         self.tau_id = "90f9e0ad-594e-4203-9297-d4c7cc691e5x"
+
+    def download_with_wget(self, link, download_dir, filename):
+        headers = [
+            "--header",
+            "Cookie: __Host-session=63EQahvTpHuoFSkEW75hC",
+            "--header",
+            "Cookie: __cf_bm=CDGicP5OErYjDI85UmQSRKlppJLlbcgCXlWcODoIQAI-1716296320-1.0.1.1-4Rm5_wdxupmrDWgddOQjEV01TMFC4UJ479GRIAKKGHNgXu3N8ZkASEZXGwCWaRyUYazsUaLMALk.4frWWJzHQ",
+        ]
+
+        # Construct the full command
+        command = ["aria2c"] + headers + [link, "-d", download_dir, "-o", filename]
+
+        # Run the command
+        subprocess.run(command)
 
     def concatenate_wave_files(self, input_file_paths):
         """
@@ -162,15 +177,21 @@ class DescriptTTS:
         random_filename = str(uuid.uuid4()) + ".wav"
         file_path = os.path.join(temp_dir, random_filename)
 
-        async with aiohttp.ClientSession() as session:
-            async with session.get(access_url) as response:
-                if response.status == 200:
-                    with open(file_path, "wb") as file:
-                        while True:
-                            chunk = await response.content.read(1024)
-                            if not chunk:
-                                break
-                            file.write(chunk)
+        if "https://pi.ai" in access_url:
+            random_filename = str(uuid.uuid4()) + ".mp3"
+            file_path = os.path.join(temp_dir, random_filename)
+
+            self.download_with_wget(download_dir=temp_dir, filename=random_filename)
+        else:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(access_url) as response:
+                    if response.status == 200:
+                        with open(file_path, "wb") as file:
+                            while True:
+                                chunk = await response.content.read(1024)
+                                if not chunk:
+                                    break
+                                file.write(chunk)
 
         # Schedule the file for deletion after 10 minutes
         delete_time = datetime.now() + timedelta(minutes=10)
@@ -187,8 +208,9 @@ class DescriptTTS:
         return file_path
 
     def calculate_audio_duration(self, audio_file):
-        wav_file = AudioSegment.from_file(audio_file, format="wav")
-        duration_in_seconds = str(float(len(wav_file) / 1000))
+        file_format = audio_file.split(".")[-1]
+        temp_file = AudioSegment.from_file(audio_file, format=file_format)
+        duration_in_seconds = str(float(len(temp_file) / 1000))
         return duration_in_seconds
 
     async def search_unsplash_images(self, query_terms):
