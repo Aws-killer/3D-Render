@@ -11,7 +11,7 @@ RUN chmod 755 /srv
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    aria2c
+    aria2
 
 #copy requirements    
 COPY requirements.txt .
