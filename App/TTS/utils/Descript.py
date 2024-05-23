@@ -181,7 +181,7 @@ class DescriptTTS:
             random_filename = str(uuid.uuid4()) + ".mp3"
             file_path = os.path.join(temp_dir, random_filename)
 
-            self.download_with_wget(download_dir=temp_dir, filename=random_filename)
+            self.download_with_wget(link=access_url,download_dir=temp_dir, filename=random_filename)
         else:
             async with aiohttp.ClientSession() as session:
                 async with session.get(access_url) as response:
