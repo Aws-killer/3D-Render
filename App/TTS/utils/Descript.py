@@ -211,7 +211,7 @@ class DescriptTTS:
 
     def calculate_audio_duration(self, audio_file):
         file_format = audio_file.split(".")[-1]
-        temp_file = AudioSegment.from_file(audio_file, format=file_format)
+        temp_file = AudioSegment.from_file(audio_file)
         duration_in_seconds = str(float(len(temp_file) / 1000))
         return duration_in_seconds
 
@@ -300,6 +300,15 @@ class DescriptTTS:
 
             # Wait for 24 hours before the next refresh
             await asyncio.sleep(24 * 60 * 60)
+
+    def convert_mp3_to_wav(mp3_path, wav_path):
+        # Load the MP3 file
+        audio = AudioSegment.from_mp3(mp3_path)
+
+        # Export the audio file in WAV format
+        audio.export(wav_path, format="wav")
+
+        return wav_path
 
     async def update_refresh_token(self, new_refresh_token):
         # Update the new refresh token to Firebase
@@ -393,6 +402,8 @@ class DescriptTTS:
             audio_path = self.concatenate_wave_files(audio_paths)
         else:
             audio_path = audio_paths[0]
+            wave_path = audio_path.split(".")[0] + ".wav"
+            audio_path = self.convert_mp3_to_wav(audio_path, wav_path=wave_path)
         data.add_field("audio", open(audio_path, "rb"))
 
         data.add_field("text", query.text)
