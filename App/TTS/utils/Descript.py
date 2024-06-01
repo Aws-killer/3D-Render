@@ -171,17 +171,19 @@ class DescriptTTS:
                         f"Failed to load existing refresh token. Status code: {response.status}, Error: {await response.text()}"
                     )
 
-    async def download_and_store_file(self, access_url):
+    async def download_and_store_file(self, access_url, file_extension=".wav"):
         temp_dir = tempfile.mkdtemp()
         # Generate a unique random filename
-        random_filename = str(uuid.uuid4()) + ".wav"
+        random_filename = str(uuid.uuid4()) + file_extension
         file_path = os.path.join(temp_dir, random_filename)
 
         if "https://pi.ai" in access_url:
             random_filename = str(uuid.uuid4()) + ".mp3"
             file_path = os.path.join(temp_dir, random_filename)
 
-            self.download_with_wget(link=access_url,download_dir=temp_dir, filename=random_filename)
+            self.download_with_wget(
+                link=access_url, download_dir=temp_dir, filename=random_filename
+            )
         else:
             async with aiohttp.ClientSession() as session:
                 async with session.get(access_url) as response:
@@ -385,7 +387,7 @@ class DescriptTTS:
         audio_paths = []
         audio_path = ""
         for url in query.audio_url:
-            audio_paths.append(self.download_and_store_file(url))
+            audio_paths.append(self.download_and_store_file(url, query.file_extenstion))
         audio_paths = await asyncio.gather(*audio_paths)
         audio_path = self.concatenate_wave_files(audio_paths)
         data.add_field("audio", open(audio_path, "rb"))

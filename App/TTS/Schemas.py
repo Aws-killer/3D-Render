@@ -27,6 +27,7 @@ class DescriptSfxRequest(BaseModel):
 class DescriptTranscript(BaseModel):
     audio_url: List[str]
     text: str
+    file_extenstion: str = ".wav"
 
 
 class DescriptRequest(BaseModel):
