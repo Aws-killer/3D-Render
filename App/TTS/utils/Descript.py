@@ -389,7 +389,10 @@ class DescriptTTS:
         for url in query.audio_url:
             audio_paths.append(self.download_and_store_file(url, query.file_extenstion))
         audio_paths = await asyncio.gather(*audio_paths)
-        audio_path = self.concatenate_wave_files(audio_paths)
+        if query.file_extenstion == ".wav":
+            audio_path = self.concatenate_wave_files(audio_paths)
+        else:
+            audio_path = audio_paths[0]
         data.add_field("audio", open(audio_path, "rb"))
 
         data.add_field("text", query.text)
