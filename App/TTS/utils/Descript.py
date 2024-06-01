@@ -301,7 +301,7 @@ class DescriptTTS:
             # Wait for 24 hours before the next refresh
             await asyncio.sleep(24 * 60 * 60)
 
-    def convert_mp3_to_wav(mp3_path, wav_path):
+    def convert_mp3_to_wav(self, mp3_path, wav_path):
         # Load the MP3 file
         audio = AudioSegment.from_mp3(mp3_path)
 
