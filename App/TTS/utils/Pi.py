@@ -105,7 +105,7 @@ class PiAIClient:
         return response_texts, response_sids
 
     async def speak_response(
-        self, message_sid: str, voice: VoiceType = VoiceType.voice4
+        self, message_sid: str, voice: VoiceType = VoiceType.voice4.value
     ) -> None:
         if self.cookie is None:
             self.cookie = await self.get_cookie()
@@ -144,7 +144,9 @@ class PiAIClient:
         }
         headers["Cookie"] = self.cookie
         print(headers)
-        endpoint = f"{self.base_url}/voice?mode=eager&voice={voice.value}&messageSid={message_sid}"
+        endpoint = (
+            f"{self.base_url}/voice?mode=eager&voice={voice}&messageSid={message_sid}"
+        )
         async with aiohttp.ClientSession() as session:
             async with session.get(endpoint, headers=headers) as response:
                 print(response.status)
@@ -165,7 +167,7 @@ class PiAIClient:
                     print(temp)
                     return "Error: Unable to retrieve audio."
 
-    async def say(self, text, voice=VoiceType.qdpi):
+    async def say(self, text, voice=VoiceType.qdpi.value):
         _, response_sids = await self.get_response(text)
 
         if response_sids:
