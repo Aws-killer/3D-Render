@@ -30,6 +30,11 @@ class DescriptTranscript(BaseModel):
     file_extenstion: str = ".wav"
 
 
+class PiTTSRequest(BaseModel):
+    text: str
+    voice: Optional[str]
+
+
 class DescriptRequest(BaseModel):
     text: str
     speaker: Optional[str] = Field(default="Lawrance")

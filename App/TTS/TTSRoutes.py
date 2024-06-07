@@ -9,12 +9,18 @@ from .Schemas import (
     DescriptStatusRequest,
     DescriptSfxRequest,
     DescriptTranscript,
+    PiTTSRequest,
 )
 from .utils.Podcastle import PodcastleAPI
 from .utils.HeyGen import HeygenAPI
+from .utils.Pi import PiAIClient
 from .utils.Descript import DescriptTTS
 import os
 import asyncio
+
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import StreamingResponse, FileResponse
+import os
 
 tts_router = APIRouter(tags=["TTS"])
 data = {"username": os.environ.get("USERNAME"), "password": os.environ.get("PASSWORD")}
@@ -27,6 +33,7 @@ data = {
 
 descript_tts = DescriptTTS()
 heyGentts = HeygenAPI(**data)
+pi = PiAIClient()
 
 
 @tts_router.post("/generate_tts")
@@ -86,3 +93,44 @@ async def auto_refresh():
 @tts_router.post("/status")
 async def search_id(req: StatusRequest):
     return await tts.check_status(req)
+
+
+@tts_router.post("/pi_tts")
+async def pi_tts(req: PiTTSRequest):
+    return await pi.say(text=req.text, voice=req.voice)
+
+
+@tts_router.get("/audio/{audio_name}")
+async def serve_audio(request: Request, audio_name: str):
+    audio_directory = "/tmp/Audio"
+    audio_path = os.path.join(audio_directory, audio_name)
+    if not os.path.isfile(audio_path):
+        raise HTTPException(status_code=404, detail="Audio not found")
+
+    range_header = request.headers.get("Range", None)
+    audio_size = os.path.getsize(audio_path)
+
+    if range_header:
+        start, end = range_header.strip().split("=")[1].split("-")
+        start = int(start)
+        end = audio_size if end == "" else int(end)
+
+        headers = {
+            "Content-Range": f"bytes {start}-{end}/{audio_size}",
+            "Accept-Ranges": "bytes",
+            # Optionally, you might want to force download by uncommenting the next line:
+            # "Content-Disposition": f"attachment; filename={audio_name}",
+        }
+
+        content = read_file_range(audio_path, start, end)
+        return StreamingResponse(content, media_type="audio/mpeg", headers=headers)
+
+    return FileResponse(audio_path, media_type="audio/mpeg")
+
+
+def read_file_range(path, start, end):
+    """Helper function to read specific range of bytes from a file."""
+    with open(path, "rb") as file:
+        file.seek(start)
+        # Be sure to handle the case where `end` is not the last byte
+        return file.read(end - start + 1)
