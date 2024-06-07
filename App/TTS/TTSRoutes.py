@@ -21,6 +21,7 @@ import asyncio
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import StreamingResponse, FileResponse
 import os
+import aiofiles
 
 tts_router = APIRouter(tags=["TTS"])
 data = {"username": os.environ.get("USERNAME"), "password": os.environ.get("PASSWORD")}
@@ -128,9 +129,11 @@ async def serve_audio(request: Request, audio_name: str):
     return FileResponse(audio_path, media_type="audio/mpeg")
 
 
-def read_file_range(path, start, end):
-    """Helper function to read specific range of bytes from a file."""
-    with open(path, "rb") as file:
-        file.seek(start)
-        # Be sure to handle the case where `end` is not the last byte
-        return file.read(end - start + 1)
+async def read_file_range(path, start, end):
+    async with aiofiles.open(path, "rb") as file:
+        await file.seek(start)
+        while True:
+            data = await file.read(1024 * 1024)  # read in chunks of 1MB
+            if not data or await file.tell() > end:
+                break
+            yield data

@@ -23,6 +23,7 @@ requests
 bs4 
 strenum 
 pydub
+aiofiles
 
 
 git+https://github.com/snowby666/poe-api-wrapper.git@2c91207598ad930901cb9fb09734705056b7b6a9
