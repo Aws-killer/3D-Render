@@ -152,7 +152,7 @@ class PiAIClient:
                 print(response.status)
                 file_name = str(uuid.uuid4()) + ".mp3"
                 file_path = os.path.join(self.dir, file_name)
-                os.makedirs(file_path, exist_ok=True)
+                os.makedirs(self.dir, exist_ok=True)
                 if response.status == 200:
                     with open(file_path, "wb") as file:
                         async for chunk in response.content.iter_chunked(128):
