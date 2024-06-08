@@ -166,6 +166,7 @@ class PiAIClient:
                 else:
                     temp = await response.text()
                     print(temp)
+                    self.cookie = None
                     return "Error: Unable to retrieve audio."
 
     async def say(self, text, voice=VoiceType.qdpi.value):
