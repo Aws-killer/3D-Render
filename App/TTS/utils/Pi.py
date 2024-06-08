@@ -49,6 +49,7 @@ class PiAIClient:
             "DNT": "1",
             "Sec-GPC": "1",
             "TE": "trailers",
+            "Cookie": "__cf_bm=XagWXCS3SJekiP5O.A8K9wgtGuEieLNW7AFXj10hzqk-1717865973-1.0.1.1-4Xp_xUVYB5G.Zkpfgcm30PCVGnj3g6URzZsfCS28BQIdt8dZm76rnNbQiX9vNG_OsYdbUiDiX2pa.E3ajhcOXA; path=/; expires=Sat, 08-Jun-24 17:29:33 GMT; domain=.pi.ai; HttpOnly; Secure; SameSite=None",
             "Pragma": "no-cache",
             "Cache-Control": "no-cache",
         }
