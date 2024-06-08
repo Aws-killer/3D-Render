@@ -4,8 +4,8 @@ from fastapi import APIRouter, BackgroundTasks
 from .Schemas import SearchRequest, AddDocumentRequest, TrendingRequest
 import redis, os, json
 
-REDIS = os.environ.get("REDIS")
-cache = redis.from_url(REDIS)
+REDIS = os.environ.get("REDIS", "ASD")
+# cache = redis.from_url(REDIS)
 
 
 embeddigs_router = APIRouter(tags=["embeddings"])
@@ -28,7 +28,8 @@ async def search_id(
     background_tasks: BackgroundTasks,
 ):
     # return []
-    data = cache.get(f"recommendations:{req.query}")
+    # data = cache.get(f"recommendations:{req.query}")
+    data = []
     if data is not None:
         return json.loads(data)
     else:
