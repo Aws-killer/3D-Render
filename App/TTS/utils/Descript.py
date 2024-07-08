@@ -131,8 +131,8 @@ class DescriptTTS:
 
     async def refresh_access_token(self):
         # Load the existing refresh token from Firebase
-        if self.refresh_token == None:
-            await self.load_existing_refresh_token()
+
+        await self.load_existing_refresh_token()
 
         # Prepare the payload for token refresh
         payload = {
