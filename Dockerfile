@@ -30,14 +30,13 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-RUN git clone https://github.com/BrokenSource/DepthFlow.git /tmp/DepthFlow \
-    && cd /tmp/DepthFlow \
-    && git checkout 3f518988eaba01fc7712228ec56756658bcfdb04 \
-    && pip install -e .
-# Copy the application code
-USER admin
+# Create a non-root user and give it sudo privileges
+RUN useradd -m appuser && echo "appuser ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/appuser && chmod 0440 /etc/sudoers.d/appuser
 
-COPY --chown=admin . /srv
+# Switch to the non-root user
+USER appuser
+
+COPY --chown=appuser . /srv
 
 # Command to run the application
 CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 1
