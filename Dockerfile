@@ -63,6 +63,6 @@ USER appuser
 COPY --chown=appuser . /srv
 
 # Command to run the application
-CMD ["/app/start.sh"]
+CMD ["./start.sh"]
 # Expose the server port
 EXPOSE 7860
