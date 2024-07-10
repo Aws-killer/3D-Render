@@ -31,38 +31,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 
 
+# Copy the application code
+USER admin
 
-# Create necessary directories and set permissions
-RUN mkdir -p /home/admin/.local/share/BrokenSource/Broken \
-    && mkdir -p /home/admin/.local/share/BrokenSource/DepthFlow/Config \
-    && mkdir -p /tmp/Video \
-    && chmod -R 777 /home/admin/.local /tmp/Video
-
-# Create a startup script
-RUN echo '#!/bin/bash\n\
-    rm -rf /usr/local/lib/python3.10/site-packages/Workspace\n\
-    mkdir -p /usr/local/lib/python3.10/site-packages/Workspace\n\
-    ln -sf /home/admin/.local/share/BrokenSource/Broken /usr/local/lib/python3.10/site-packages/Workspace/Broken\n\
-    ln -sf /home/admin/.local/share/BrokenSource/DepthFlow /usr/local/lib/python3.10/site-packages/Workspace/DepthFlow\n\
-    uvicorn app:app --host 0.0.0.0 --port 7860\n'\
-    > /app/start.sh && chmod +x ./start.sh
-
-
-
-# Create a non-root user and give it sudo privileges
-RUN useradd -m appuser \
-    && mkdir -p /etc/sudoers.d \
-    && echo "appuser ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/appuser \
-    && chmod 0440 /etc/sudoers.d/appuser
-
-# Switch to the non-root user
-USER appuser
-
-
-
-COPY --chown=appuser . /srv
+COPY --chown=admin . /srv
 
 # Command to run the application
-CMD ["./start.sh"]
+CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 1
 # Expose the server port
 EXPOSE 7860
