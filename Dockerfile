@@ -30,11 +30,23 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
+# Create necessary directories and set permissions
+RUN mkdir -p /home/admin/.local/share/BrokenSource/Broken \
+    && mkdir -p /home/admin/.local/share/BrokenSource/DepthFlow/Config \
+    && mkdir -p /tmp/Video \
+    && mkdir -p /usr/local/lib/python3.10/site-packages/Workspace \
+    && chmod -R 777 /home/admin/.local /tmp/Video /usr/local/lib/python3.10/site-packages/Workspace
+
 # Create a non-root user and give it sudo privileges
-RUN useradd -m appuser && echo "appuser ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/appuser && chmod 0440 /etc/sudoers.d/appuser
+RUN useradd -m appuser \
+    && mkdir -p /etc/sudoers.d \
+    && echo "appuser ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/appuser \
+    && chmod 0440 /etc/sudoers.d/appuser
 
 # Switch to the non-root user
 USER appuser
+
+
 
 COPY --chown=appuser . /srv
 
