@@ -57,8 +57,7 @@ USER appuser
 
 COPY --chown=appuser . /srv
 
-# Run your shader application when the container launches
-CMD ["python", "-c", "import os; os.makedirs('/usr/local/lib/python3.10/site-packages/Workspace', exist_ok=True); os.system('uvicorn app:app --host 0.0.0.0 --port 8000 --workers 1')"]
-
+# Command to run the application
+CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 1
 # Expose the server port
 EXPOSE 7860
