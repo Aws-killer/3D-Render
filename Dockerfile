@@ -11,7 +11,17 @@ RUN chmod 755 /srv
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    aria2 ffmpeg
+    aria2 ffmpeg     libgl1-mesa-dev \
+    libgles2-mesa-dev \
+    libglu1-mesa-dev \
+    freeglut3-dev \
+    libglfw3-dev \
+    libglew-dev \
+    libsdl2-dev \
+    libjpeg-dev \
+    libpng-dev \
+    libfreetype6-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 #copy requirements    
 COPY requirements.txt .
