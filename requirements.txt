@@ -32,8 +32,8 @@ numpy
 broken-source
 
 
-git+https://github.com/snowby666/poe-api-wrapper.git@2c91207598ad930901cb9fb09734705056b7b6a9
-git+https://github.com/Mbonea-Mjema/ballyregan.git
+# git+https://github.com/snowby666/poe-api-wrapper.git@2c91207598ad930901cb9fb09734705056b7b6a9
+# git+https://github.com/Mbonea-Mjema/ballyregan.git
 
 --find-links https://download.pytorch.org/whl/cpu
 torch
