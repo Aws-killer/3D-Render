@@ -1,7 +1,7 @@
-from fastapi import APIRouter, status
+from fastapi import APIRouter, status, BackgroundTasks
 from .Schemas import BaseRequest, BaseResponse
 from fastapi import FastAPI, HTTPException, Request
-import os
+import os, uuid
 
 # from HuggingChat import getChatBot
 
@@ -14,8 +14,10 @@ shader_router = APIRouter(tags=["Shaders"])
 
 
 @shader_router.get("/3d-effect")
-async def shader_3d(image_link: str):
-    return make_effect(image_link=image_link)
+async def shader_3d(image_link: str, background_task: BackgroundTasks):
+    filename = f"{str(uuid.uuid4())}.mp4"
+    background_task.add_task(make_effect, image_link=image_link, filename=filename)
+    return filename
 
 
 @shader_router.get("/shaderOuput/{audio_name}")

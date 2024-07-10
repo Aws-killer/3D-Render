@@ -10,8 +10,8 @@ import uuid
 depthflow = DepthFlowScene()
 
 
-def make_effect(image_link):
-    filename = f"{str(uuid.uuid4())}.mp4"
+def make_effect(image_link, filename: str):
+
     destination = os.path.join("/tmp/Video", filename)
     depthflow.input(image=image_link)
     depthflow.main(
