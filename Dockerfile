@@ -30,6 +30,12 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
+# Clone DepthFlow repository and checkout specific commit
+RUN git clone https://github.com/BrokenSource/DepthFlow.git /tmp/DepthFlow \
+    && cd /tmp/DepthFlow \
+    && git checkout 3f518988eaba01fc7712228ec56756658bcfdb04 \
+    && pip install -e .
+
 # Create necessary directories and set permissions
 RUN mkdir -p /home/admin/.local/share/BrokenSource/Broken \
     && mkdir -p /home/admin/.local/share/BrokenSource/DepthFlow/Config \
