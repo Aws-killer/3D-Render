@@ -33,7 +33,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 
 # Create necessary directories and set permissions
-RUN mkdir -p /tmp/Video 
+RUN mkdir -p /home/admin/.local/share/BrokenSource/Broken \
+    && mkdir -p /home/admin/.local/share/BrokenSource/DepthFlow/Config \
+    && mkdir -p /tmp/Video \
+    && mkdir -p /usr/local/lib/python3.10/site-packages/Workspace \
+    && chmod -R 777 /home/admin/.local /tmp/Video /usr/local/lib/python3.10/site-packages/Workspace
+
 
 
 # Create a non-root user and give it sudo privileges
