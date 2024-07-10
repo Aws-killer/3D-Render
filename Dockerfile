@@ -45,7 +45,7 @@ RUN echo '#!/bin/bash\n\
     ln -sf /home/admin/.local/share/BrokenSource/Broken /usr/local/lib/python3.10/site-packages/Workspace/Broken\n\
     ln -sf /home/admin/.local/share/BrokenSource/DepthFlow /usr/local/lib/python3.10/site-packages/Workspace/DepthFlow\n\
     uvicorn app:app --host 0.0.0.0 --port 7860\n'\
-    > /app/start.sh && chmod +x /app/start.sh
+    > /app/start.sh && chmod +x ./start.sh
 
 
 
