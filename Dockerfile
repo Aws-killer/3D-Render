@@ -30,16 +30,11 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-# Clone DepthFlow repository and checkout specific commit
-RUN git clone https://github.com/BrokenSource/DepthFlow.git /tmp/DepthFlow \
-    && cd /tmp/DepthFlow \
-    && git checkout 3f518988eaba01fc7712228ec56756658bcfdb04 \
-    && pip install -e .
+
 
 # Create necessary directories and set permissions
-RUN mkdir -p /tmp/Video \
-    && mkdir -p /usr/local/lib/python3.10/site-packages/Workspace \
-    && chmod -R 777 /home/admin/.local /tmp/Video /usr/local/lib/python3.10/site-packages/Workspace
+RUN mkdir -p /tmp/Video 
+
 
 # Create a non-root user and give it sudo privileges
 RUN useradd -m appuser \
