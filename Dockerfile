@@ -32,6 +32,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN git clone https://github.com/BrokenSource/DepthFlow.git /tmp/DepthFlow \
     && cd /tmp/DepthFlow \
+    && git checkout 3f518988eaba01fc7712228ec56756658bcfdb04 \
     && pip install -e .
 # Copy the application code
 USER admin
