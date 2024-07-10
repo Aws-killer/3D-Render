@@ -14,6 +14,8 @@ RUN apt-get update && \
     aria2 ffmpeg     libgl1-mesa-dev \
     libgles2-mesa-dev \
     libglu1-mesa-dev \
+    build-essential \
+    cmake \
     freeglut3-dev \
     libglfw3-dev \
     libglew-dev \
