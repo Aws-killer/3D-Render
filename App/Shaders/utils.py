@@ -1,7 +1,5 @@
 import os
-import os
 
-os.makedirs("/usr/local/lib/python3.10/site-packages/Workspace", exist_ok=True)
 os.environ["WINDOW_BACKEND"] = "headless"  # Use software rendering
 os.environ["SKIP_TORCH"] = "1"
 

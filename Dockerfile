@@ -58,6 +58,16 @@ USER appuser
 COPY --chown=appuser . /srv
 
 # Command to run the application
-CMD uvicorn App.app:app --host 0.0.0.0 --port 7860 --workers 1
+# Create a startup script
+RUN echo '#!/bin/bash\n\
+    rm -rf /usr/local/lib/python3.10/site-packages/Workspace\n\
+    mkdir -p /usr/local/lib/python3.10/site-packages/Workspace\n\
+    ln -sf /home/admin/.local/share/BrokenSource/Broken /usr/local/lib/python3.10/site-packages/Workspace/Broken\n\
+    ln -sf /home/admin/.local/share/BrokenSource/DepthFlow /usr/local/lib/python3.10/site-packages/Workspace/DepthFlow\n\
+    uvicorn app:app --host 0.0.0.0 --port 8000\n'\
+    > /app/start.sh && chmod +x /app/start.sh
+
+# Run the startup script when the container launches
+CMD ["/app/start.sh"]
 # Expose the server port
 EXPOSE 7860
